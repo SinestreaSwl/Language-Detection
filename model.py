@@ -5,8 +5,10 @@ import pickle
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score, classification_report
+from sklearn.metrics import accuracy_score, recall_score, f1_score, precision_score
 
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+ 
 # Dataset
 df = pd.read_csv('dataset/data_train.csv')
 
@@ -38,5 +40,33 @@ model.fit(X_train_vectorized, y_train)
 y_pred = model.predict(X_test_vectorized)
 
 # Evaluate
-print(f'Accuracy {accuracy_score(y_test, y_pred)}')
-print(classification_report(y_test, y_pred))
+print(f'Model Accuracy: {accuracy_score(y_test, y_pred)}')
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - # 
+
+# TEST I
+
+# Dataset
+df_1 = pd.read_csv('dataset/data_test.csv')
+
+# Cleaned Text
+def clean_text(text):
+    text = text.lower()
+    text = re.sub(r'\d+', '', text)
+    text = text.translate(str.maketrans('', '', string.punctuation))
+    text = re.sub(r'\s+', '', text).strip()
+    return text
+
+df_1['clean_text'] = df_1['Text'].apply(clean_text)
+
+# Feature
+X_1 = df_1['clean_text']
+
+# Features Extracktion
+X_test_vectorized_1 = vectorizer.transform(X_1)
+
+# Predict
+y_pred_1 = model.predict(X_test_vectorized_1)
+df_1['Language Prediction'] = y_pred_1
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - # 
