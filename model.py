@@ -39,8 +39,13 @@ model.fit(X_train_vectorized, y_train)
 # Predict
 y_pred = model.predict(X_test_vectorized)
 
-# Evaluate
+# Evaluate score
 print(f'Model Accuracy: {accuracy_score(y_test, y_pred)}')
+
+"""
+Result :
+Model Accuracy: 0.9166666666666666
+"""
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - # 
 
@@ -69,4 +74,19 @@ X_test_vectorized_1 = vectorizer.transform(X_1)
 y_pred_1 = model.predict(X_test_vectorized_1)
 df_1['Language Prediction'] = y_pred_1
 
+# Evaluate score
+actual_label = df_1['Language']
+print("Accurasy:", accuracy_score(actual_label, y_pred_1))
+print("Precision:", precision_score(actual_label, y_pred_1, average='weighted'))
+print("Recall:", recall_score(actual_label, y_pred_1, average='weighted'))
+print("F1-Score:", f1_score(actual_label, y_pred_1,average='weighted'))
+
+"""
+Result :
+Model Accuracy: 0.9166666666666666
+Accurasy: 0.9416666666666667
+Precision: 0.9477611940298508
+Recall: 0.9416666666666667
+F1-Score: 0.9414674935544561
+"""
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - # 

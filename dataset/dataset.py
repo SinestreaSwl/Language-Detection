@@ -1,6 +1,8 @@
 import pandas as pd
 import random
 
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
 # DATASET I
 
 data = {
@@ -33,8 +35,11 @@ data = {
     ]
 }
 
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
 # DATASET II
 
+# Indonesia text
 data_id = [
     'Bagaimana kabarmu?', 'Dimana kamu?', 'Apakah itu binatang?', 'Apa kabar', 'Jika kamu suka',
     'Kurang ajar', 'Bagaimana mungkin', 'Kurasa tidak masalah', 'Tidak buruk sama sekali',
@@ -53,7 +58,7 @@ data_id = [
     'Bagaimana mungkin dia melakukan itu', "Nah aku menang!!!", 'Kenapa kamu selalu terlambat!', 'Mana buktinya? Ini buktinya'
 ]
 
-# Contoh kalimat bahasa Inggris
+# English text
 data_en = [
     'How are you?', 'Where are you?', 'Is it an animal?', 'How do you do?', 'If you like it',
     'Damn', 'How is that possible?', 'I think it\'s okay', 'Not bad at all',
@@ -74,6 +79,16 @@ data_en = [
 
 data = data_id + data_en
 
-df = pd.DataFrame({'Text': data})
+# Labeling
+labels = ['Indonesia'] * len(data_id) + ['English'] * len(data_en)
+
+# Declare dataframe
+df = pd.DataFrame({'Text': data, 'Language': labels})
+
+# Randomize index
 df = df.sample(frac=1).reset_index(drop=True)
 df = pd.concat([df] * 5, ignore_index=True)
+
+# df.to_csv('data_train.csv')
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #

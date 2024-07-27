@@ -1,601 +1,601 @@
-,Text
-0,Saatnya bersinar
-1,Jadi kamu punya ibu?
-2,Jadi bagaimana kemajuannya?
-3,If you like it
-4,Apa kabar
-5,Bolehkah aku duduk di sini?
-6,That place is red
-7,"Jika kamu mau, aku juga mau"
-8,Sampai jumpa lagi
-9,I don't know how to fix it
-10,"One soup, please!"
-11,Aku tidak tahu cara memperbaikinya
-12,I am just a postman
-13,Not bad at all
-14,How do you do?
-15,See you again
-16,"Permisi, ini paketmu?"
-17,That's what I said
-18,Can I sit here?
-19,Kurasa tidak masalah
-20,"Tentu saja, pak!"
-21,Berapa harganya?
-22,Dimana kamu?
-23,"Nah, I win!!!"
-24,Hanya untuk bersenang-senang
-25,Kurang ajar
-26,"No, don't get serious, just kidding"
-27,Mana buktinya? Ini buktinya
-28,I have this
-29,So you have a mother?
-30,"Yes, you are right, it makes sense"
-31,Beraninya kau
-32,Is it an animal?
-33,"Ya, kamu benar, itu masuk akal"
-34,"It's okay, don't mind it"
-35,Sangat malas rasanya
-36,Just for fun
-37,Just know
-38,Bagaimana? itu tidak mungkin
-39,It's time
-40,"Permisi, apakah ini rumahmu?"
-41,Aku juga mau
-42,Maybe the thief is her
-43,I should go home now
-44,"Excuse me, is this your house?"
-45,Maafkan aku
-46,Ini milikmu
-47,Where is the proof? Here it is
-48,Itu yang kukatakan
-49,Tidak buruk sama sekali
-50,"Excuse me, is this your package?"
-51,Cukup tahu
-52,It's time to shine
-53,I think it's okay to do it
-54,Sudah waktunya
-55,How could he do that?
-56,Maybe another day
-57,"Jangan dia, dia tidak bersalah"
-58,Will you be my friend?
-59,Forgive me
-60,"Can I get the rice, mom?"
-61,Damn
-62,How much is it?
-63,Mungkin pencurinya dia
-64,Jika kamu suka
-65,"Bolehkah aku mendapatkan nasi, ibu?"
-66,Itu suara yang indah
-67,Bisa ambilkan airku?
-68,That's a beautiful voice
-69,Kamu ini sudah melampaui batas!
-70,Kamu tidak apa-apa?
-71,Kenapa hanya kamu dan aku?
-72,Kenapa kamu selalu terlambat!
-73,How are you?
-74,So how's the story?
-75,What bird is that? quail
-76,I want it too
-77,Where are you?
-78,Aku berhasil menang
-79,"Tidak apa-apa, jangan dipikirkan"
-80,Burung apa itu? burung puyuh
-81,Bagaimana kabarmu?
-82,Aku punya ini
-83,Why is it just you and me?
-84,Maukah kamu menjadi temanku?
-85,Tempat itu merah
-86,How? that's impossible
-87,"Satu sup, tolong!"
-88,Jadi bagaimana ceritanya?
-89,I managed to win
-90,Bagaimana mungkin
-91,"Of course, sir!"
-92,I think it's okay
-93,"Not him, he's innocent"
-94,Apakah itu binatang?
-95,Aku harus pulang sekarang
-96,What are you going to do?
-97,Kurasa tidak masalah melakukannya
-98,Nah aku menang!!!
-99,How dare you
-100,Mungkin hari lain
-101,"One more time, please!"
-102,"If you want, I want it too"
-103,Can you take my water?
-104,So how's the progress?
-105,Why are you always late!
-106,Aku hanya seorang tukang pos
-107,I think the boss will be angry with this
-108,Feeling very lazy
-109,Are you okay?
-110,Berapa harganya?
-111,"Satu kali lagi, tolong!"
-112,Bagaimana mungkin dia melakukan itu
-113,How is that possible?
-114,It's yours
-115,Kurasa bos akan marah dengan ini
-116,You have crossed the line!
-117,"Jangan bercanda, aku hanya bercanda"
-118,How much is it?
-119,Apa yang akan kamu lakukan?
-120,Saatnya bersinar
-121,Jadi kamu punya ibu?
-122,Jadi bagaimana kemajuannya?
-123,If you like it
-124,Apa kabar
-125,Bolehkah aku duduk di sini?
-126,That place is red
-127,"Jika kamu mau, aku juga mau"
-128,Sampai jumpa lagi
-129,I don't know how to fix it
-130,"One soup, please!"
-131,Aku tidak tahu cara memperbaikinya
-132,I am just a postman
-133,Not bad at all
-134,How do you do?
-135,See you again
-136,"Permisi, ini paketmu?"
-137,That's what I said
-138,Can I sit here?
-139,Kurasa tidak masalah
-140,"Tentu saja, pak!"
-141,Berapa harganya?
-142,Dimana kamu?
-143,"Nah, I win!!!"
-144,Hanya untuk bersenang-senang
-145,Kurang ajar
-146,"No, don't get serious, just kidding"
-147,Mana buktinya? Ini buktinya
-148,I have this
-149,So you have a mother?
-150,"Yes, you are right, it makes sense"
-151,Beraninya kau
-152,Is it an animal?
-153,"Ya, kamu benar, itu masuk akal"
-154,"It's okay, don't mind it"
-155,Sangat malas rasanya
-156,Just for fun
-157,Just know
-158,Bagaimana? itu tidak mungkin
-159,It's time
-160,"Permisi, apakah ini rumahmu?"
-161,Aku juga mau
-162,Maybe the thief is her
-163,I should go home now
-164,"Excuse me, is this your house?"
-165,Maafkan aku
-166,Ini milikmu
-167,Where is the proof? Here it is
-168,Itu yang kukatakan
-169,Tidak buruk sama sekali
-170,"Excuse me, is this your package?"
-171,Cukup tahu
-172,It's time to shine
-173,I think it's okay to do it
-174,Sudah waktunya
-175,How could he do that?
-176,Maybe another day
-177,"Jangan dia, dia tidak bersalah"
-178,Will you be my friend?
-179,Forgive me
-180,"Can I get the rice, mom?"
-181,Damn
-182,How much is it?
-183,Mungkin pencurinya dia
-184,Jika kamu suka
-185,"Bolehkah aku mendapatkan nasi, ibu?"
-186,Itu suara yang indah
-187,Bisa ambilkan airku?
-188,That's a beautiful voice
-189,Kamu ini sudah melampaui batas!
-190,Kamu tidak apa-apa?
-191,Kenapa hanya kamu dan aku?
-192,Kenapa kamu selalu terlambat!
-193,How are you?
-194,So how's the story?
-195,What bird is that? quail
-196,I want it too
-197,Where are you?
-198,Aku berhasil menang
-199,"Tidak apa-apa, jangan dipikirkan"
-200,Burung apa itu? burung puyuh
-201,Bagaimana kabarmu?
-202,Aku punya ini
-203,Why is it just you and me?
-204,Maukah kamu menjadi temanku?
-205,Tempat itu merah
-206,How? that's impossible
-207,"Satu sup, tolong!"
-208,Jadi bagaimana ceritanya?
-209,I managed to win
-210,Bagaimana mungkin
-211,"Of course, sir!"
-212,I think it's okay
-213,"Not him, he's innocent"
-214,Apakah itu binatang?
-215,Aku harus pulang sekarang
-216,What are you going to do?
-217,Kurasa tidak masalah melakukannya
-218,Nah aku menang!!!
-219,How dare you
-220,Mungkin hari lain
-221,"One more time, please!"
-222,"If you want, I want it too"
-223,Can you take my water?
-224,So how's the progress?
-225,Why are you always late!
-226,Aku hanya seorang tukang pos
-227,I think the boss will be angry with this
-228,Feeling very lazy
-229,Are you okay?
-230,Berapa harganya?
-231,"Satu kali lagi, tolong!"
-232,Bagaimana mungkin dia melakukan itu
-233,How is that possible?
-234,It's yours
-235,Kurasa bos akan marah dengan ini
-236,You have crossed the line!
-237,"Jangan bercanda, aku hanya bercanda"
-238,How much is it?
-239,Apa yang akan kamu lakukan?
-240,Saatnya bersinar
-241,Jadi kamu punya ibu?
-242,Jadi bagaimana kemajuannya?
-243,If you like it
-244,Apa kabar
-245,Bolehkah aku duduk di sini?
-246,That place is red
-247,"Jika kamu mau, aku juga mau"
-248,Sampai jumpa lagi
-249,I don't know how to fix it
-250,"One soup, please!"
-251,Aku tidak tahu cara memperbaikinya
-252,I am just a postman
-253,Not bad at all
-254,How do you do?
-255,See you again
-256,"Permisi, ini paketmu?"
-257,That's what I said
-258,Can I sit here?
-259,Kurasa tidak masalah
-260,"Tentu saja, pak!"
-261,Berapa harganya?
-262,Dimana kamu?
-263,"Nah, I win!!!"
-264,Hanya untuk bersenang-senang
-265,Kurang ajar
-266,"No, don't get serious, just kidding"
-267,Mana buktinya? Ini buktinya
-268,I have this
-269,So you have a mother?
-270,"Yes, you are right, it makes sense"
-271,Beraninya kau
-272,Is it an animal?
-273,"Ya, kamu benar, itu masuk akal"
-274,"It's okay, don't mind it"
-275,Sangat malas rasanya
-276,Just for fun
-277,Just know
-278,Bagaimana? itu tidak mungkin
-279,It's time
-280,"Permisi, apakah ini rumahmu?"
-281,Aku juga mau
-282,Maybe the thief is her
-283,I should go home now
-284,"Excuse me, is this your house?"
-285,Maafkan aku
-286,Ini milikmu
-287,Where is the proof? Here it is
-288,Itu yang kukatakan
-289,Tidak buruk sama sekali
-290,"Excuse me, is this your package?"
-291,Cukup tahu
-292,It's time to shine
-293,I think it's okay to do it
-294,Sudah waktunya
-295,How could he do that?
-296,Maybe another day
-297,"Jangan dia, dia tidak bersalah"
-298,Will you be my friend?
-299,Forgive me
-300,"Can I get the rice, mom?"
-301,Damn
-302,How much is it?
-303,Mungkin pencurinya dia
-304,Jika kamu suka
-305,"Bolehkah aku mendapatkan nasi, ibu?"
-306,Itu suara yang indah
-307,Bisa ambilkan airku?
-308,That's a beautiful voice
-309,Kamu ini sudah melampaui batas!
-310,Kamu tidak apa-apa?
-311,Kenapa hanya kamu dan aku?
-312,Kenapa kamu selalu terlambat!
-313,How are you?
-314,So how's the story?
-315,What bird is that? quail
-316,I want it too
-317,Where are you?
-318,Aku berhasil menang
-319,"Tidak apa-apa, jangan dipikirkan"
-320,Burung apa itu? burung puyuh
-321,Bagaimana kabarmu?
-322,Aku punya ini
-323,Why is it just you and me?
-324,Maukah kamu menjadi temanku?
-325,Tempat itu merah
-326,How? that's impossible
-327,"Satu sup, tolong!"
-328,Jadi bagaimana ceritanya?
-329,I managed to win
-330,Bagaimana mungkin
-331,"Of course, sir!"
-332,I think it's okay
-333,"Not him, he's innocent"
-334,Apakah itu binatang?
-335,Aku harus pulang sekarang
-336,What are you going to do?
-337,Kurasa tidak masalah melakukannya
-338,Nah aku menang!!!
-339,How dare you
-340,Mungkin hari lain
-341,"One more time, please!"
-342,"If you want, I want it too"
-343,Can you take my water?
-344,So how's the progress?
-345,Why are you always late!
-346,Aku hanya seorang tukang pos
-347,I think the boss will be angry with this
-348,Feeling very lazy
-349,Are you okay?
-350,Berapa harganya?
-351,"Satu kali lagi, tolong!"
-352,Bagaimana mungkin dia melakukan itu
-353,How is that possible?
-354,It's yours
-355,Kurasa bos akan marah dengan ini
-356,You have crossed the line!
-357,"Jangan bercanda, aku hanya bercanda"
-358,How much is it?
-359,Apa yang akan kamu lakukan?
-360,Saatnya bersinar
-361,Jadi kamu punya ibu?
-362,Jadi bagaimana kemajuannya?
-363,If you like it
-364,Apa kabar
-365,Bolehkah aku duduk di sini?
-366,That place is red
-367,"Jika kamu mau, aku juga mau"
-368,Sampai jumpa lagi
-369,I don't know how to fix it
-370,"One soup, please!"
-371,Aku tidak tahu cara memperbaikinya
-372,I am just a postman
-373,Not bad at all
-374,How do you do?
-375,See you again
-376,"Permisi, ini paketmu?"
-377,That's what I said
-378,Can I sit here?
-379,Kurasa tidak masalah
-380,"Tentu saja, pak!"
-381,Berapa harganya?
-382,Dimana kamu?
-383,"Nah, I win!!!"
-384,Hanya untuk bersenang-senang
-385,Kurang ajar
-386,"No, don't get serious, just kidding"
-387,Mana buktinya? Ini buktinya
-388,I have this
-389,So you have a mother?
-390,"Yes, you are right, it makes sense"
-391,Beraninya kau
-392,Is it an animal?
-393,"Ya, kamu benar, itu masuk akal"
-394,"It's okay, don't mind it"
-395,Sangat malas rasanya
-396,Just for fun
-397,Just know
-398,Bagaimana? itu tidak mungkin
-399,It's time
-400,"Permisi, apakah ini rumahmu?"
-401,Aku juga mau
-402,Maybe the thief is her
-403,I should go home now
-404,"Excuse me, is this your house?"
-405,Maafkan aku
-406,Ini milikmu
-407,Where is the proof? Here it is
-408,Itu yang kukatakan
-409,Tidak buruk sama sekali
-410,"Excuse me, is this your package?"
-411,Cukup tahu
-412,It's time to shine
-413,I think it's okay to do it
-414,Sudah waktunya
-415,How could he do that?
-416,Maybe another day
-417,"Jangan dia, dia tidak bersalah"
-418,Will you be my friend?
-419,Forgive me
-420,"Can I get the rice, mom?"
-421,Damn
-422,How much is it?
-423,Mungkin pencurinya dia
-424,Jika kamu suka
-425,"Bolehkah aku mendapatkan nasi, ibu?"
-426,Itu suara yang indah
-427,Bisa ambilkan airku?
-428,That's a beautiful voice
-429,Kamu ini sudah melampaui batas!
-430,Kamu tidak apa-apa?
-431,Kenapa hanya kamu dan aku?
-432,Kenapa kamu selalu terlambat!
-433,How are you?
-434,So how's the story?
-435,What bird is that? quail
-436,I want it too
-437,Where are you?
-438,Aku berhasil menang
-439,"Tidak apa-apa, jangan dipikirkan"
-440,Burung apa itu? burung puyuh
-441,Bagaimana kabarmu?
-442,Aku punya ini
-443,Why is it just you and me?
-444,Maukah kamu menjadi temanku?
-445,Tempat itu merah
-446,How? that's impossible
-447,"Satu sup, tolong!"
-448,Jadi bagaimana ceritanya?
-449,I managed to win
-450,Bagaimana mungkin
-451,"Of course, sir!"
-452,I think it's okay
-453,"Not him, he's innocent"
-454,Apakah itu binatang?
-455,Aku harus pulang sekarang
-456,What are you going to do?
-457,Kurasa tidak masalah melakukannya
-458,Nah aku menang!!!
-459,How dare you
-460,Mungkin hari lain
-461,"One more time, please!"
-462,"If you want, I want it too"
-463,Can you take my water?
-464,So how's the progress?
-465,Why are you always late!
-466,Aku hanya seorang tukang pos
-467,I think the boss will be angry with this
-468,Feeling very lazy
-469,Are you okay?
-470,Berapa harganya?
-471,"Satu kali lagi, tolong!"
-472,Bagaimana mungkin dia melakukan itu
-473,How is that possible?
-474,It's yours
-475,Kurasa bos akan marah dengan ini
-476,You have crossed the line!
-477,"Jangan bercanda, aku hanya bercanda"
-478,How much is it?
-479,Apa yang akan kamu lakukan?
-480,Saatnya bersinar
-481,Jadi kamu punya ibu?
-482,Jadi bagaimana kemajuannya?
-483,If you like it
-484,Apa kabar
-485,Bolehkah aku duduk di sini?
-486,That place is red
-487,"Jika kamu mau, aku juga mau"
-488,Sampai jumpa lagi
-489,I don't know how to fix it
-490,"One soup, please!"
-491,Aku tidak tahu cara memperbaikinya
-492,I am just a postman
-493,Not bad at all
-494,How do you do?
-495,See you again
-496,"Permisi, ini paketmu?"
-497,That's what I said
-498,Can I sit here?
-499,Kurasa tidak masalah
-500,"Tentu saja, pak!"
-501,Berapa harganya?
-502,Dimana kamu?
-503,"Nah, I win!!!"
-504,Hanya untuk bersenang-senang
-505,Kurang ajar
-506,"No, don't get serious, just kidding"
-507,Mana buktinya? Ini buktinya
-508,I have this
-509,So you have a mother?
-510,"Yes, you are right, it makes sense"
-511,Beraninya kau
-512,Is it an animal?
-513,"Ya, kamu benar, itu masuk akal"
-514,"It's okay, don't mind it"
-515,Sangat malas rasanya
-516,Just for fun
-517,Just know
-518,Bagaimana? itu tidak mungkin
-519,It's time
-520,"Permisi, apakah ini rumahmu?"
-521,Aku juga mau
-522,Maybe the thief is her
-523,I should go home now
-524,"Excuse me, is this your house?"
-525,Maafkan aku
-526,Ini milikmu
-527,Where is the proof? Here it is
-528,Itu yang kukatakan
-529,Tidak buruk sama sekali
-530,"Excuse me, is this your package?"
-531,Cukup tahu
-532,It's time to shine
-533,I think it's okay to do it
-534,Sudah waktunya
-535,How could he do that?
-536,Maybe another day
-537,"Jangan dia, dia tidak bersalah"
-538,Will you be my friend?
-539,Forgive me
-540,"Can I get the rice, mom?"
-541,Damn
-542,How much is it?
-543,Mungkin pencurinya dia
-544,Jika kamu suka
-545,"Bolehkah aku mendapatkan nasi, ibu?"
-546,Itu suara yang indah
-547,Bisa ambilkan airku?
-548,That's a beautiful voice
-549,Kamu ini sudah melampaui batas!
-550,Kamu tidak apa-apa?
-551,Kenapa hanya kamu dan aku?
-552,Kenapa kamu selalu terlambat!
-553,How are you?
-554,So how's the story?
-555,What bird is that? quail
-556,I want it too
-557,Where are you?
-558,Aku berhasil menang
-559,"Tidak apa-apa, jangan dipikirkan"
-560,Burung apa itu? burung puyuh
-561,Bagaimana kabarmu?
-562,Aku punya ini
-563,Why is it just you and me?
-564,Maukah kamu menjadi temanku?
-565,Tempat itu merah
-566,How? that's impossible
-567,"Satu sup, tolong!"
-568,Jadi bagaimana ceritanya?
-569,I managed to win
-570,Bagaimana mungkin
-571,"Of course, sir!"
-572,I think it's okay
-573,"Not him, he's innocent"
-574,Apakah itu binatang?
-575,Aku harus pulang sekarang
-576,What are you going to do?
-577,Kurasa tidak masalah melakukannya
-578,Nah aku menang!!!
-579,How dare you
-580,Mungkin hari lain
-581,"One more time, please!"
-582,"If you want, I want it too"
-583,Can you take my water?
-584,So how's the progress?
-585,Why are you always late!
-586,Aku hanya seorang tukang pos
-587,I think the boss will be angry with this
-588,Feeling very lazy
-589,Are you okay?
-590,Berapa harganya?
-591,"Satu kali lagi, tolong!"
-592,Bagaimana mungkin dia melakukan itu
-593,How is that possible?
-594,It's yours
-595,Kurasa bos akan marah dengan ini
-596,You have crossed the line!
-597,"Jangan bercanda, aku hanya bercanda"
-598,How much is it?
-599,Apa yang akan kamu lakukan?
+,Text,Language
+0,Kenapa kamu selalu terlambat!,Indonesia
+1,How do you do?,English
+2,How could he do that?,English
+3,I managed to win,English
+4,Kamu ini sudah melampaui batas!,Indonesia
+5,Can I sit here?,English
+6,Itu suara yang indah,Indonesia
+7,See you again,English
+8,Kurang ajar,Indonesia
+9,It's time to shine,English
+10,How much is it?,English
+11,Nah aku menang!!!,Indonesia
+12,"Permisi, ini paketmu?",Indonesia
+13,Just know,English
+14,"Bolehkah aku mendapatkan nasi, ibu?",Indonesia
+15,"One more time, please!",English
+16,Beraninya kau,Indonesia
+17,I think the boss will be angry with this,English
+18,What are you going to do?,English
+19,Just for fun,English
+20,"Excuse me, is this your package?",English
+21,Maybe another day,English
+22,How are you?,English
+23,I should go home now,English
+24,"Jangan dia, dia tidak bersalah",Indonesia
+25,Ini milikmu,Indonesia
+26,It's time,English
+27,I have this,English
+28,How much is it?,English
+29,Mana buktinya? Ini buktinya,Indonesia
+30,Apa yang akan kamu lakukan?,Indonesia
+31,"Satu sup, tolong!",Indonesia
+32,"Yes, you are right, it makes sense",English
+33,Can you take my water?,English
+34,Feeling very lazy,English
+35,Kamu tidak apa-apa?,Indonesia
+36,"Can I get the rice, mom?",English
+37,Hanya untuk bersenang-senang,Indonesia
+38,"Not him, he's innocent",English
+39,Mungkin hari lain,Indonesia
+40,"Jika kamu mau, aku juga mau",Indonesia
+41,"One soup, please!",English
+42,How dare you,English
+43,Aku hanya seorang tukang pos,Indonesia
+44,Tidak buruk sama sekali,Indonesia
+45,Sudah waktunya,Indonesia
+46,"Excuse me, is this your house?",English
+47,"Tentu saja, pak!",Indonesia
+48,Kenapa hanya kamu dan aku?,Indonesia
+49,Not bad at all,English
+50,How is that possible?,English
+51,How? that's impossible,English
+52,Mungkin pencurinya dia,Indonesia
+53,Aku harus pulang sekarang,Indonesia
+54,Aku punya ini,Indonesia
+55,Kurasa bos akan marah dengan ini,Indonesia
+56,Cukup tahu,Indonesia
+57,"Permisi, apakah ini rumahmu?",Indonesia
+58,So you have a mother?,English
+59,Dimana kamu?,Indonesia
+60,You have crossed the line!,English
+61,Kurasa tidak masalah melakukannya,Indonesia
+62,That's what I said,English
+63,"Jangan bercanda, aku hanya bercanda",Indonesia
+64,If you like it,English
+65,"It's okay, don't mind it",English
+66,Itu yang kukatakan,Indonesia
+67,Bagaimana mungkin dia melakukan itu,Indonesia
+68,Are you okay?,English
+69,Aku tidak tahu cara memperbaikinya,Indonesia
+70,"If you want, I want it too",English
+71,Where are you?,English
+72,Will you be my friend?,English
+73,Is it an animal?,English
+74,Apakah itu binatang?,Indonesia
+75,Damn,English
+76,"No, don't get serious, just kidding",English
+77,Bagaimana? itu tidak mungkin,Indonesia
+78,Jadi kamu punya ibu?,Indonesia
+79,That place is red,English
+80,I think it's okay,English
+81,"Satu kali lagi, tolong!",Indonesia
+82,Apa kabar,Indonesia
+83,Sampai jumpa lagi,Indonesia
+84,Aku juga mau,Indonesia
+85,Sangat malas rasanya,Indonesia
+86,I don't know how to fix it,English
+87,Aku berhasil menang,Indonesia
+88,Maybe the thief is her,English
+89,Saatnya bersinar,Indonesia
+90,I want it too,English
+91,Bagaimana mungkin,Indonesia
+92,That's a beautiful voice,English
+93,Bolehkah aku duduk di sini?,Indonesia
+94,Jadi bagaimana kemajuannya?,Indonesia
+95,What bird is that? quail,English
+96,Why are you always late!,English
+97,"Tidak apa-apa, jangan dipikirkan",Indonesia
+98,Maukah kamu menjadi temanku?,Indonesia
+99,Kurasa tidak masalah,Indonesia
+100,Where is the proof? Here it is,English
+101,I think it's okay to do it,English
+102,"Nah, I win!!!",English
+103,Berapa harganya?,Indonesia
+104,Jadi bagaimana ceritanya?,Indonesia
+105,Why is it just you and me?,English
+106,Forgive me,English
+107,"Of course, sir!",English
+108,"Ya, kamu benar, itu masuk akal",Indonesia
+109,Berapa harganya?,Indonesia
+110,Tempat itu merah,Indonesia
+111,So how's the progress?,English
+112,So how's the story?,English
+113,Jika kamu suka,Indonesia
+114,Bisa ambilkan airku?,Indonesia
+115,Maafkan aku,Indonesia
+116,Bagaimana kabarmu?,Indonesia
+117,It's yours,English
+118,I am just a postman,English
+119,Burung apa itu? burung puyuh,Indonesia
+120,Kenapa kamu selalu terlambat!,Indonesia
+121,How do you do?,English
+122,How could he do that?,English
+123,I managed to win,English
+124,Kamu ini sudah melampaui batas!,Indonesia
+125,Can I sit here?,English
+126,Itu suara yang indah,Indonesia
+127,See you again,English
+128,Kurang ajar,Indonesia
+129,It's time to shine,English
+130,How much is it?,English
+131,Nah aku menang!!!,Indonesia
+132,"Permisi, ini paketmu?",Indonesia
+133,Just know,English
+134,"Bolehkah aku mendapatkan nasi, ibu?",Indonesia
+135,"One more time, please!",English
+136,Beraninya kau,Indonesia
+137,I think the boss will be angry with this,English
+138,What are you going to do?,English
+139,Just for fun,English
+140,"Excuse me, is this your package?",English
+141,Maybe another day,English
+142,How are you?,English
+143,I should go home now,English
+144,"Jangan dia, dia tidak bersalah",Indonesia
+145,Ini milikmu,Indonesia
+146,It's time,English
+147,I have this,English
+148,How much is it?,English
+149,Mana buktinya? Ini buktinya,Indonesia
+150,Apa yang akan kamu lakukan?,Indonesia
+151,"Satu sup, tolong!",Indonesia
+152,"Yes, you are right, it makes sense",English
+153,Can you take my water?,English
+154,Feeling very lazy,English
+155,Kamu tidak apa-apa?,Indonesia
+156,"Can I get the rice, mom?",English
+157,Hanya untuk bersenang-senang,Indonesia
+158,"Not him, he's innocent",English
+159,Mungkin hari lain,Indonesia
+160,"Jika kamu mau, aku juga mau",Indonesia
+161,"One soup, please!",English
+162,How dare you,English
+163,Aku hanya seorang tukang pos,Indonesia
+164,Tidak buruk sama sekali,Indonesia
+165,Sudah waktunya,Indonesia
+166,"Excuse me, is this your house?",English
+167,"Tentu saja, pak!",Indonesia
+168,Kenapa hanya kamu dan aku?,Indonesia
+169,Not bad at all,English
+170,How is that possible?,English
+171,How? that's impossible,English
+172,Mungkin pencurinya dia,Indonesia
+173,Aku harus pulang sekarang,Indonesia
+174,Aku punya ini,Indonesia
+175,Kurasa bos akan marah dengan ini,Indonesia
+176,Cukup tahu,Indonesia
+177,"Permisi, apakah ini rumahmu?",Indonesia
+178,So you have a mother?,English
+179,Dimana kamu?,Indonesia
+180,You have crossed the line!,English
+181,Kurasa tidak masalah melakukannya,Indonesia
+182,That's what I said,English
+183,"Jangan bercanda, aku hanya bercanda",Indonesia
+184,If you like it,English
+185,"It's okay, don't mind it",English
+186,Itu yang kukatakan,Indonesia
+187,Bagaimana mungkin dia melakukan itu,Indonesia
+188,Are you okay?,English
+189,Aku tidak tahu cara memperbaikinya,Indonesia
+190,"If you want, I want it too",English
+191,Where are you?,English
+192,Will you be my friend?,English
+193,Is it an animal?,English
+194,Apakah itu binatang?,Indonesia
+195,Damn,English
+196,"No, don't get serious, just kidding",English
+197,Bagaimana? itu tidak mungkin,Indonesia
+198,Jadi kamu punya ibu?,Indonesia
+199,That place is red,English
+200,I think it's okay,English
+201,"Satu kali lagi, tolong!",Indonesia
+202,Apa kabar,Indonesia
+203,Sampai jumpa lagi,Indonesia
+204,Aku juga mau,Indonesia
+205,Sangat malas rasanya,Indonesia
+206,I don't know how to fix it,English
+207,Aku berhasil menang,Indonesia
+208,Maybe the thief is her,English
+209,Saatnya bersinar,Indonesia
+210,I want it too,English
+211,Bagaimana mungkin,Indonesia
+212,That's a beautiful voice,English
+213,Bolehkah aku duduk di sini?,Indonesia
+214,Jadi bagaimana kemajuannya?,Indonesia
+215,What bird is that? quail,English
+216,Why are you always late!,English
+217,"Tidak apa-apa, jangan dipikirkan",Indonesia
+218,Maukah kamu menjadi temanku?,Indonesia
+219,Kurasa tidak masalah,Indonesia
+220,Where is the proof? Here it is,English
+221,I think it's okay to do it,English
+222,"Nah, I win!!!",English
+223,Berapa harganya?,Indonesia
+224,Jadi bagaimana ceritanya?,Indonesia
+225,Why is it just you and me?,English
+226,Forgive me,English
+227,"Of course, sir!",English
+228,"Ya, kamu benar, itu masuk akal",Indonesia
+229,Berapa harganya?,Indonesia
+230,Tempat itu merah,Indonesia
+231,So how's the progress?,English
+232,So how's the story?,English
+233,Jika kamu suka,Indonesia
+234,Bisa ambilkan airku?,Indonesia
+235,Maafkan aku,Indonesia
+236,Bagaimana kabarmu?,Indonesia
+237,It's yours,English
+238,I am just a postman,English
+239,Burung apa itu? burung puyuh,Indonesia
+240,Kenapa kamu selalu terlambat!,Indonesia
+241,How do you do?,English
+242,How could he do that?,English
+243,I managed to win,English
+244,Kamu ini sudah melampaui batas!,Indonesia
+245,Can I sit here?,English
+246,Itu suara yang indah,Indonesia
+247,See you again,English
+248,Kurang ajar,Indonesia
+249,It's time to shine,English
+250,How much is it?,English
+251,Nah aku menang!!!,Indonesia
+252,"Permisi, ini paketmu?",Indonesia
+253,Just know,English
+254,"Bolehkah aku mendapatkan nasi, ibu?",Indonesia
+255,"One more time, please!",English
+256,Beraninya kau,Indonesia
+257,I think the boss will be angry with this,English
+258,What are you going to do?,English
+259,Just for fun,English
+260,"Excuse me, is this your package?",English
+261,Maybe another day,English
+262,How are you?,English
+263,I should go home now,English
+264,"Jangan dia, dia tidak bersalah",Indonesia
+265,Ini milikmu,Indonesia
+266,It's time,English
+267,I have this,English
+268,How much is it?,English
+269,Mana buktinya? Ini buktinya,Indonesia
+270,Apa yang akan kamu lakukan?,Indonesia
+271,"Satu sup, tolong!",Indonesia
+272,"Yes, you are right, it makes sense",English
+273,Can you take my water?,English
+274,Feeling very lazy,English
+275,Kamu tidak apa-apa?,Indonesia
+276,"Can I get the rice, mom?",English
+277,Hanya untuk bersenang-senang,Indonesia
+278,"Not him, he's innocent",English
+279,Mungkin hari lain,Indonesia
+280,"Jika kamu mau, aku juga mau",Indonesia
+281,"One soup, please!",English
+282,How dare you,English
+283,Aku hanya seorang tukang pos,Indonesia
+284,Tidak buruk sama sekali,Indonesia
+285,Sudah waktunya,Indonesia
+286,"Excuse me, is this your house?",English
+287,"Tentu saja, pak!",Indonesia
+288,Kenapa hanya kamu dan aku?,Indonesia
+289,Not bad at all,English
+290,How is that possible?,English
+291,How? that's impossible,English
+292,Mungkin pencurinya dia,Indonesia
+293,Aku harus pulang sekarang,Indonesia
+294,Aku punya ini,Indonesia
+295,Kurasa bos akan marah dengan ini,Indonesia
+296,Cukup tahu,Indonesia
+297,"Permisi, apakah ini rumahmu?",Indonesia
+298,So you have a mother?,English
+299,Dimana kamu?,Indonesia
+300,You have crossed the line!,English
+301,Kurasa tidak masalah melakukannya,Indonesia
+302,That's what I said,English
+303,"Jangan bercanda, aku hanya bercanda",Indonesia
+304,If you like it,English
+305,"It's okay, don't mind it",English
+306,Itu yang kukatakan,Indonesia
+307,Bagaimana mungkin dia melakukan itu,Indonesia
+308,Are you okay?,English
+309,Aku tidak tahu cara memperbaikinya,Indonesia
+310,"If you want, I want it too",English
+311,Where are you?,English
+312,Will you be my friend?,English
+313,Is it an animal?,English
+314,Apakah itu binatang?,Indonesia
+315,Damn,English
+316,"No, don't get serious, just kidding",English
+317,Bagaimana? itu tidak mungkin,Indonesia
+318,Jadi kamu punya ibu?,Indonesia
+319,That place is red,English
+320,I think it's okay,English
+321,"Satu kali lagi, tolong!",Indonesia
+322,Apa kabar,Indonesia
+323,Sampai jumpa lagi,Indonesia
+324,Aku juga mau,Indonesia
+325,Sangat malas rasanya,Indonesia
+326,I don't know how to fix it,English
+327,Aku berhasil menang,Indonesia
+328,Maybe the thief is her,English
+329,Saatnya bersinar,Indonesia
+330,I want it too,English
+331,Bagaimana mungkin,Indonesia
+332,That's a beautiful voice,English
+333,Bolehkah aku duduk di sini?,Indonesia
+334,Jadi bagaimana kemajuannya?,Indonesia
+335,What bird is that? quail,English
+336,Why are you always late!,English
+337,"Tidak apa-apa, jangan dipikirkan",Indonesia
+338,Maukah kamu menjadi temanku?,Indonesia
+339,Kurasa tidak masalah,Indonesia
+340,Where is the proof? Here it is,English
+341,I think it's okay to do it,English
+342,"Nah, I win!!!",English
+343,Berapa harganya?,Indonesia
+344,Jadi bagaimana ceritanya?,Indonesia
+345,Why is it just you and me?,English
+346,Forgive me,English
+347,"Of course, sir!",English
+348,"Ya, kamu benar, itu masuk akal",Indonesia
+349,Berapa harganya?,Indonesia
+350,Tempat itu merah,Indonesia
+351,So how's the progress?,English
+352,So how's the story?,English
+353,Jika kamu suka,Indonesia
+354,Bisa ambilkan airku?,Indonesia
+355,Maafkan aku,Indonesia
+356,Bagaimana kabarmu?,Indonesia
+357,It's yours,English
+358,I am just a postman,English
+359,Burung apa itu? burung puyuh,Indonesia
+360,Kenapa kamu selalu terlambat!,Indonesia
+361,How do you do?,English
+362,How could he do that?,English
+363,I managed to win,English
+364,Kamu ini sudah melampaui batas!,Indonesia
+365,Can I sit here?,English
+366,Itu suara yang indah,Indonesia
+367,See you again,English
+368,Kurang ajar,Indonesia
+369,It's time to shine,English
+370,How much is it?,English
+371,Nah aku menang!!!,Indonesia
+372,"Permisi, ini paketmu?",Indonesia
+373,Just know,English
+374,"Bolehkah aku mendapatkan nasi, ibu?",Indonesia
+375,"One more time, please!",English
+376,Beraninya kau,Indonesia
+377,I think the boss will be angry with this,English
+378,What are you going to do?,English
+379,Just for fun,English
+380,"Excuse me, is this your package?",English
+381,Maybe another day,English
+382,How are you?,English
+383,I should go home now,English
+384,"Jangan dia, dia tidak bersalah",Indonesia
+385,Ini milikmu,Indonesia
+386,It's time,English
+387,I have this,English
+388,How much is it?,English
+389,Mana buktinya? Ini buktinya,Indonesia
+390,Apa yang akan kamu lakukan?,Indonesia
+391,"Satu sup, tolong!",Indonesia
+392,"Yes, you are right, it makes sense",English
+393,Can you take my water?,English
+394,Feeling very lazy,English
+395,Kamu tidak apa-apa?,Indonesia
+396,"Can I get the rice, mom?",English
+397,Hanya untuk bersenang-senang,Indonesia
+398,"Not him, he's innocent",English
+399,Mungkin hari lain,Indonesia
+400,"Jika kamu mau, aku juga mau",Indonesia
+401,"One soup, please!",English
+402,How dare you,English
+403,Aku hanya seorang tukang pos,Indonesia
+404,Tidak buruk sama sekali,Indonesia
+405,Sudah waktunya,Indonesia
+406,"Excuse me, is this your house?",English
+407,"Tentu saja, pak!",Indonesia
+408,Kenapa hanya kamu dan aku?,Indonesia
+409,Not bad at all,English
+410,How is that possible?,English
+411,How? that's impossible,English
+412,Mungkin pencurinya dia,Indonesia
+413,Aku harus pulang sekarang,Indonesia
+414,Aku punya ini,Indonesia
+415,Kurasa bos akan marah dengan ini,Indonesia
+416,Cukup tahu,Indonesia
+417,"Permisi, apakah ini rumahmu?",Indonesia
+418,So you have a mother?,English
+419,Dimana kamu?,Indonesia
+420,You have crossed the line!,English
+421,Kurasa tidak masalah melakukannya,Indonesia
+422,That's what I said,English
+423,"Jangan bercanda, aku hanya bercanda",Indonesia
+424,If you like it,English
+425,"It's okay, don't mind it",English
+426,Itu yang kukatakan,Indonesia
+427,Bagaimana mungkin dia melakukan itu,Indonesia
+428,Are you okay?,English
+429,Aku tidak tahu cara memperbaikinya,Indonesia
+430,"If you want, I want it too",English
+431,Where are you?,English
+432,Will you be my friend?,English
+433,Is it an animal?,English
+434,Apakah itu binatang?,Indonesia
+435,Damn,English
+436,"No, don't get serious, just kidding",English
+437,Bagaimana? itu tidak mungkin,Indonesia
+438,Jadi kamu punya ibu?,Indonesia
+439,That place is red,English
+440,I think it's okay,English
+441,"Satu kali lagi, tolong!",Indonesia
+442,Apa kabar,Indonesia
+443,Sampai jumpa lagi,Indonesia
+444,Aku juga mau,Indonesia
+445,Sangat malas rasanya,Indonesia
+446,I don't know how to fix it,English
+447,Aku berhasil menang,Indonesia
+448,Maybe the thief is her,English
+449,Saatnya bersinar,Indonesia
+450,I want it too,English
+451,Bagaimana mungkin,Indonesia
+452,That's a beautiful voice,English
+453,Bolehkah aku duduk di sini?,Indonesia
+454,Jadi bagaimana kemajuannya?,Indonesia
+455,What bird is that? quail,English
+456,Why are you always late!,English
+457,"Tidak apa-apa, jangan dipikirkan",Indonesia
+458,Maukah kamu menjadi temanku?,Indonesia
+459,Kurasa tidak masalah,Indonesia
+460,Where is the proof? Here it is,English
+461,I think it's okay to do it,English
+462,"Nah, I win!!!",English
+463,Berapa harganya?,Indonesia
+464,Jadi bagaimana ceritanya?,Indonesia
+465,Why is it just you and me?,English
+466,Forgive me,English
+467,"Of course, sir!",English
+468,"Ya, kamu benar, itu masuk akal",Indonesia
+469,Berapa harganya?,Indonesia
+470,Tempat itu merah,Indonesia
+471,So how's the progress?,English
+472,So how's the story?,English
+473,Jika kamu suka,Indonesia
+474,Bisa ambilkan airku?,Indonesia
+475,Maafkan aku,Indonesia
+476,Bagaimana kabarmu?,Indonesia
+477,It's yours,English
+478,I am just a postman,English
+479,Burung apa itu? burung puyuh,Indonesia
+480,Kenapa kamu selalu terlambat!,Indonesia
+481,How do you do?,English
+482,How could he do that?,English
+483,I managed to win,English
+484,Kamu ini sudah melampaui batas!,Indonesia
+485,Can I sit here?,English
+486,Itu suara yang indah,Indonesia
+487,See you again,English
+488,Kurang ajar,Indonesia
+489,It's time to shine,English
+490,How much is it?,English
+491,Nah aku menang!!!,Indonesia
+492,"Permisi, ini paketmu?",Indonesia
+493,Just know,English
+494,"Bolehkah aku mendapatkan nasi, ibu?",Indonesia
+495,"One more time, please!",English
+496,Beraninya kau,Indonesia
+497,I think the boss will be angry with this,English
+498,What are you going to do?,English
+499,Just for fun,English
+500,"Excuse me, is this your package?",English
+501,Maybe another day,English
+502,How are you?,English
+503,I should go home now,English
+504,"Jangan dia, dia tidak bersalah",Indonesia
+505,Ini milikmu,Indonesia
+506,It's time,English
+507,I have this,English
+508,How much is it?,English
+509,Mana buktinya? Ini buktinya,Indonesia
+510,Apa yang akan kamu lakukan?,Indonesia
+511,"Satu sup, tolong!",Indonesia
+512,"Yes, you are right, it makes sense",English
+513,Can you take my water?,English
+514,Feeling very lazy,English
+515,Kamu tidak apa-apa?,Indonesia
+516,"Can I get the rice, mom?",English
+517,Hanya untuk bersenang-senang,Indonesia
+518,"Not him, he's innocent",English
+519,Mungkin hari lain,Indonesia
+520,"Jika kamu mau, aku juga mau",Indonesia
+521,"One soup, please!",English
+522,How dare you,English
+523,Aku hanya seorang tukang pos,Indonesia
+524,Tidak buruk sama sekali,Indonesia
+525,Sudah waktunya,Indonesia
+526,"Excuse me, is this your house?",English
+527,"Tentu saja, pak!",Indonesia
+528,Kenapa hanya kamu dan aku?,Indonesia
+529,Not bad at all,English
+530,How is that possible?,English
+531,How? that's impossible,English
+532,Mungkin pencurinya dia,Indonesia
+533,Aku harus pulang sekarang,Indonesia
+534,Aku punya ini,Indonesia
+535,Kurasa bos akan marah dengan ini,Indonesia
+536,Cukup tahu,Indonesia
+537,"Permisi, apakah ini rumahmu?",Indonesia
+538,So you have a mother?,English
+539,Dimana kamu?,Indonesia
+540,You have crossed the line!,English
+541,Kurasa tidak masalah melakukannya,Indonesia
+542,That's what I said,English
+543,"Jangan bercanda, aku hanya bercanda",Indonesia
+544,If you like it,English
+545,"It's okay, don't mind it",English
+546,Itu yang kukatakan,Indonesia
+547,Bagaimana mungkin dia melakukan itu,Indonesia
+548,Are you okay?,English
+549,Aku tidak tahu cara memperbaikinya,Indonesia
+550,"If you want, I want it too",English
+551,Where are you?,English
+552,Will you be my friend?,English
+553,Is it an animal?,English
+554,Apakah itu binatang?,Indonesia
+555,Damn,English
+556,"No, don't get serious, just kidding",English
+557,Bagaimana? itu tidak mungkin,Indonesia
+558,Jadi kamu punya ibu?,Indonesia
+559,That place is red,English
+560,I think it's okay,English
+561,"Satu kali lagi, tolong!",Indonesia
+562,Apa kabar,Indonesia
+563,Sampai jumpa lagi,Indonesia
+564,Aku juga mau,Indonesia
+565,Sangat malas rasanya,Indonesia
+566,I don't know how to fix it,English
+567,Aku berhasil menang,Indonesia
+568,Maybe the thief is her,English
+569,Saatnya bersinar,Indonesia
+570,I want it too,English
+571,Bagaimana mungkin,Indonesia
+572,That's a beautiful voice,English
+573,Bolehkah aku duduk di sini?,Indonesia
+574,Jadi bagaimana kemajuannya?,Indonesia
+575,What bird is that? quail,English
+576,Why are you always late!,English
+577,"Tidak apa-apa, jangan dipikirkan",Indonesia
+578,Maukah kamu menjadi temanku?,Indonesia
+579,Kurasa tidak masalah,Indonesia
+580,Where is the proof? Here it is,English
+581,I think it's okay to do it,English
+582,"Nah, I win!!!",English
+583,Berapa harganya?,Indonesia
+584,Jadi bagaimana ceritanya?,Indonesia
+585,Why is it just you and me?,English
+586,Forgive me,English
+587,"Of course, sir!",English
+588,"Ya, kamu benar, itu masuk akal",Indonesia
+589,Berapa harganya?,Indonesia
+590,Tempat itu merah,Indonesia
+591,So how's the progress?,English
+592,So how's the story?,English
+593,Jika kamu suka,Indonesia
+594,Bisa ambilkan airku?,Indonesia
+595,Maafkan aku,Indonesia
+596,Bagaimana kabarmu?,Indonesia
+597,It's yours,English
+598,I am just a postman,English
+599,Burung apa itu? burung puyuh,Indonesia
