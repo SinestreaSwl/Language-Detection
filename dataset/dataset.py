@@ -1,5 +1,6 @@
 import pandas as pd
 import random
+import string
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
 
@@ -90,5 +91,44 @@ df = df.sample(frac=1).reset_index(drop=True)
 df = pd.concat([df] * 5, ignore_index=True)
 
 # df.to_csv('data_train.csv')
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+# DATASET III
+
+# Generate random text function
+def generate_text(language, length):
+    words = {
+        'Indonesia' : ['ini', 'adalah', 'contoh', 'kalimat', 'dalam', 'bagaimana', 'bisa', 'mungkin',
+                        'betul', 'tujuan', 'perlu', 'cukup', 'masalah', 'bermain', 'juga'],
+        'English' : ['this', 'is', 'example', 'text', 'in', 'how', 'can', 'possible', 'correct',
+                     'objective', 'need', 'enough', 'trouble', 'playing', 'to']
+    }
+    sentence = ' '.join(random.choices(words[language], k=length))
+    return sentence
+
+# Add feature function
+def add_features(text):
+    features = {}
+    features['Length'] = len(text)
+    features['Word Count'] = len(text.split())
+    features['Has Number'] = 'yes' if any(char.isdigit() for char in text) else 'no'
+    features['Has Special Character'] = 'yes' if any(char in string.punctuation for char in text) else 'no'
+    return features
+
+# Generate dataset
+data = []
+languages = ['Indonesia', 'English']
+for _ in range(250):
+    for language in languages:
+        text = generate_text(language, random.randint(5, 15))
+        features = add_features(text)
+        data.append({'Text': text, 'Language': language, **features})
+
+# Create dataset
+df = pd.DataFrame(data)
+
+# Shuffle the DF
+df = df.sample(frac=1).reset_index(drop=False)
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
