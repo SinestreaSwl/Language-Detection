@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Detection</title>
+</head>
+<body>
+    <div class="container">
+        <div class="text-input">
+            <h3>Language Detection</h3>
+            
+            <form action="/predict" method="post" id="predictionForm">
+               
+                <!-- Input text -->
+                <label for="Text">Text:</label>
+                <input type="text" class="text" id="text" name="text" required>
+                <button type="submit">Detect</button>
+                <!-- Input text -->
+
+            </form>
+
+            <!-- Result -->
+            <div id="result"></div>
+            <!-- Result -->
+
+        </div>
+    </div>
+
+    <!-- JS Code -->
+<script>
+    document.getElementById('predictionForm').onsubmit = async function(e) {
+        e.preventDefault();
+
+        const text = document.getElementById('text').value;
+        const response = await fetch('/predict', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ Text : text})
+        });
+        const data = await response.json();
+
+        if (response.ok) {
+            document.getElementById('result').innerText = 'Language: ' + data.prediction;
+        } else {
+            document.getElementById('result').innerText = 'Error: ' + data.error;
+        }
+    };
+</script>
+    <!-- JS Code -->
+</body>
+</html>
