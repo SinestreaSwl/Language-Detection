@@ -132,3 +132,115 @@ df = pd.DataFrame(data)
 df = df.sample(frac=1).reset_index(drop=False)
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+# DATASET IV
+
+# Dataset
+data_4 = {
+    'Text': [
+        'Hari ini sangat cerah dan indah.',
+        'I am feeling great today!',
+        'Saya suka belajar bahasa pemrograman.',
+        'Programming languages are fun to learn.',
+        'Apakah kamu suka membaca buku?',
+        'Do you like to read books?',
+        'Aku akan pergi ke pasar nanti sore.',
+        'I will go to the market this evening.',
+        'Bisakah kamu membantu saya?',
+        'Can you help me?',
+        'Saya ingin membeli beberapa buah.',
+        'I want to buy some fruits.',
+        'Teman-teman saya sangat baik.',
+        'My friends are very kind.',
+        'Kucing saya sangat lucu.',
+        'My cat is very cute.',
+        'Dia bermain gitar dengan baik.',
+        'He plays guitar well.',
+        'Apakah kamu lapar?',
+        'Are you hungry?',
+        'Malam ini kita akan menonton film.',
+        'Tonight we will watch a movie.',
+        'Saya suka kopi hitam.',
+        'I like black coffee.',
+        'Kita akan pergi ke pantai besok.',
+        'We will go to the beach tomorrow.',
+        'Apa rencanamu akhir pekan ini?',
+        'What are your plans for the weekend?',
+        'Bunga-bunga di taman sangat cantik.',
+        'The flowers in the garden are beautiful.',
+        'Dia adalah seorang dokter.',
+        'She is a doctor.',
+        'Anjing itu menggonggong keras.',
+        'The dog is barking loudly.',
+        'Musik membuatku merasa tenang.',
+        'Music makes me feel calm.',
+        'Dia berlari sangat cepat.',
+        'He runs very fast.',
+        'Apakah kamu percaya pada cinta?',
+        'Do you believe in love?',
+        'Ini adalah sebuah buku yang bagus.',
+        'This is a good book.',
+        'Mereka sedang bermain sepak bola.',
+        'They are playing soccer.',
+        'Aku ingin pergi berlibur.',
+        'I want to go on vacation.',
+        'Apakah kamu pernah ke luar negeri?',
+        'Have you ever been abroad?',
+        'Hari ini saya belajar banyak.',
+        'I learned a lot today.',
+        'Kami akan makan malam bersama keluarga.',
+        'We will have dinner with the family.',
+        'Film ini sangat menarik.',
+        'This movie is very interesting.',
+        'Saya perlu tidur lebih awal malam ini.',
+        'I need to sleep early tonight.',
+        'Bisakah kamu berbicara bahasa Inggris?',
+        'Can you speak English?',
+        'Dia sedang membaca koran.',
+        'He is reading a newspaper.',
+        'Apakah kamu punya waktu luang besok?',
+        'Do you have free time tomorrow?',
+        'Saya harus pergi ke kantor sekarang.',
+        'I have to go to the office now.',
+        'Ini adalah tempat yang indah.',
+        'This is a beautiful place.',
+        'Saya senang bertemu denganmu.',
+        'I am happy to meet you.',
+        'Kita akan bertemu lagi besok.',
+        'We will meet again tomorrow.',
+        'Apakah kamu percaya pada takdir?',
+        'Do you believe in destiny?',
+        'Dia menyukai seni dan musik.',
+        'She likes art and music.',
+        'Pekerjaan ini sangat menantang.',
+        'This job is very challenging.',
+        'Saya ingin menjadi seorang insinyur.',
+        'I want to be an engineer.',
+        'Buku ini sangat informatif.',
+        'This book is very informative.'
+    ],
+    'Language': [
+        'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia', 'English', 
+        'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia', 'English', 
+        'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia', 'English', 
+        'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia', 'English', 
+        'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia', 'English', 
+        'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia', 'English', 
+        'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia', 'English', 
+        'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia', 'English', 
+        'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia', 'English', 
+        'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia', 'English', 
+        'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia', 'English', 
+        'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia', 'English', 
+        'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia', 'English',
+        'Indonesia', 'English'
+    ]
+}
+
+df = pd.DataFrame(data_4)
+
+# Shuffle index
+df = df.sample(frac=1).reset_index(drop=True)
+
+df.to_csv('data_test_3.csv')
+

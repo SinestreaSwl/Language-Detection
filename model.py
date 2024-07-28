@@ -86,6 +86,7 @@ F1-Score: 0.9414674935544561
 
 # TEST II
 df_2 = pd.read_csv('dataset/data_test_2.csv')
+
 """
 The text in dataset are randomized,maybe it doesn't produce a clear sentence
 In this dataset i want to know how usseful the model perform in randomized text in dataset
@@ -118,3 +119,45 @@ Precision: 0.988
 Recall: 0.988
 F1-Score: 0.988
 """
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - # 
+
+# TEST III
+df_3 = pd.read_csv('dataset/data_test_3.csv')
+
+"""
+Because in previous test the result are bad,so in this datatest 
+the text produce a complete sentence not randomize sentence as previously
+"""
+
+# Cleaned text
+df_3['Clean_text'] = df_3['Text'].apply(clean_text)
+
+# Feature
+X_3 = df_3['Clean_text']
+
+# Feature extraction
+X_test_vectorized_3 = vectorizer.transform(X_3)
+
+# Predict
+y_pred_3 = model.predict(X_test_vectorized_3)
+df_3['Predict Language'] = y_pred_3
+
+# Evaluate
+actual_label_3 = df_3['Language']
+# print("Accurasy:", accuracy_score(actual_label_3, y_pred_3))
+# print("Precision:", precision_score(actual_label_3, y_pred_3, average='weighted'))
+# print("Recall:", recall_score(actual_label_3, y_pred_3, average='weighted'))
+# print("F1-Score:", f1_score(actual_label_3, y_pred_3, average='weighted'))
+
+"""
+Result : TEST III
+Accurasy: 0.95
+Precision: 0.9511278195488722
+Recall: 0.95
+F1-Score: 0.9499687304565352
+"""
+
+# Save model
+# with open('model.pkl', 'wb') as f:
+#     pickle.dump(model, f)
