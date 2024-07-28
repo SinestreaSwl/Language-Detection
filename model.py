@@ -161,3 +161,7 @@ F1-Score: 0.9499687304565352
 # Save model
 # with open('model.pkl', 'wb') as f:
 #     pickle.dump(model, f)
+
+# Save vectorizer
+# with open('vectorizer.pkl', 'wb') as f:
+#     pickle.dump(vectorizer, f)
