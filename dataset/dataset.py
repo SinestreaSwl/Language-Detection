@@ -242,5 +242,44 @@ df = pd.DataFrame(data_4)
 # Shuffle index
 df = df.sample(frac=1).reset_index(drop=True)
 
-df.to_csv('data_test_3.csv')
+# df.to_csv('data_test_3.csv')
 
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+# DATASET V
+
+data_5 = {
+    'Text': [
+            'Aku', 'We', 'Biji', 'Purple', 'Semangka', 'Spesificly', 'Kuliah', 'Flying', 'Tidur',
+             'Personal', 'Agustus', 'Consider', 'Malam', 'Profession', 'Mangga', 'Red', 'Panci', 'Awake',
+             'Membangun', 'Soup', 'Undangan', 'Promise', 'Payung', 'Sword', 'Waktu', 'Meat', 'Upacara',
+             'Lawyer', 'Minuman', 'Giant', 'Kucing', 'Road', 'Rem', 'Hair', 'Nampak', 'Trust',
+             'Jiwa', 'Coffee', 'Dokter', 'Architect', 'Ikan', 'Rest', 'Pulang', 'Come', 'Sepertinya',
+             'Lamp', 'Listrik', 'Buffalo', 'Tertawa', 'Meat', 'Berpikir', 'Closed', 'Lulusan', 'Meeting',
+             'Pancingan', 'Mark', 'Papan', 'Knife', 'Palu', 'Services', 'Meja', 'From', 'Berputar',
+             'Toast', 'Babi', 'Waterfall', 'Hijau', 'Queen', 'Rumput', 'Expensive', 'Kurang', 'King',
+             'Ternak', 'Butterfly', 'Mentega', 'Corn', 'Bayi', 'Third', 'Sendiri', 'Number', 'Pribadi',
+             'Always', 'Timah', 'Coal', 'Jubah', 'Fox', 'Warung', 'Present', 'Kelahiran', 'Againts'
+             ],
+
+    
+    'Language': [
+        'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia',
+        'English', 'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia', 'English',
+        'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia',
+        'English', 'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia', 'English',
+        'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia',
+        'English', 'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia', 'English',
+        'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia',
+        'English', 'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia', 'English',
+        'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia',
+        'English', 'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia', 'English'
+        ]
+}
+
+df = pd.DataFrame(data_5)
+
+# Shuffle the index
+df = df.sample(frac=1).reset_index(drop=True)
+
+# df.to_csv('data_test_4.csv')

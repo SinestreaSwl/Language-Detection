@@ -6,6 +6,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, recall_score, f1_score, precision_score
+from nltk.corpus import stopwords
+from nltk.stem import SnowballStemmer
+from gensim.models import word2vec
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
  
@@ -25,12 +28,10 @@ df['clean_text'] = df['Text'].apply(clean_text)
 # Split dataset
 X_train, X_test, y_train, y_test = train_test_split(df['clean_text'], df['Language'], test_size=0.2, random_state=42)
 
-
 # Features Extracktion
 vectorizer = CountVectorizer(ngram_range=(1, 2), analyzer='char')
 X_train_vectorized = vectorizer.fit_transform(X_train)
 X_test_vectorized = vectorizer.transform(X_test)
-
 
 # Model Building
 model = LogisticRegression(max_iter=1000)
@@ -157,6 +158,45 @@ Precision: 0.9511278195488722
 Recall: 0.95
 F1-Score: 0.9499687304565352
 """
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - # 
+
+# TEST IV
+
+# Initialize Stemmer
+stemmer = SnowballStemmer("english")
+stop_words = set(stopwords.words('english')) | set(stopwords.words('indonesian'))
+
+# Dataset
+df_4 = pd.read_csv('dataset/data_test_4.csv')
+
+"""
+In previous result the model perform are great,but it just for a complete text,in the single text
+the model can't spesificly to predict a correct language text,so in this test i train again the
+model with dataset single text
+"""
+
+# Cleaned data
+def clean_text_2(text):
+    text = text.lower()
+    text = re.sub(r'\d+', '', text)
+    text = text.translate(str.maketrans('', '', string.punctuation))
+    text = re.sub(r'\s+', '', text).strip()
+    text = ' '.join([word for word in  text.split() if word not in stop_words])
+    text = ' '.join([stemmer.stem(word) for word in text.split()])
+    return text
+
+df_4['Cleaned_text'] = df_4['Text'].apply(clean_text_2)
+
+# Feature
+X_4 = df_4['Cleaned_text']
+
+# Vectorized
+X_test_vectorized_4 = vectorizer.transform(X_4)
+
+# Prediction
+y_pred_4 = model.predict(X_test_vectorized_4)
+df_4['Predict Language'] = y_pred_4
 
 # Save model
 # with open('model.pkl', 'wb') as f:
