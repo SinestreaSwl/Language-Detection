@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    background-color: rgb(52, 106, 154);
+    color: rgb(218, 235, 250);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-input {
+    width: 250px;
+    border: 3px solid rgb(224, 224, 224);
+    margin: 10px 0px 0px 10px;
+}
+
+.text-input h3 {
+    position: relative;
+    bottom: 15px;
+    left: 12px;
+}
+
+.text-input label {
+    position: relative;
+    left: 12px;
+}
+
+.text-input input {
+    position: relative;
+    left: 15px;
+    border: none;
+    border-radius: 3px;
+    font-family: 'poppins', sans-serif;
+}
+
+.text-input button {
+    margin: 12px;
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+#result {
+    margin: 12px;
+    background-color: rgb(9, 67, 118);
+    color: white;
+    border-radius: 2px;
+    padding-left: 1px;
+    width: 210px;
+}
