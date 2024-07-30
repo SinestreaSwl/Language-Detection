@@ -6,9 +6,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, recall_score, f1_score, precision_score
-from nltk.corpus import stopwords
-from nltk.stem import SnowballStemmer
-from gensim.models import word2vec
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
  
@@ -163,45 +160,50 @@ F1-Score: 0.9499687304565352
 
 # TEST IV
 
-# Initialize Stemmer
-stemmer = SnowballStemmer("english")
-stop_words = set(stopwords.words('english')) | set(stopwords.words('indonesian'))
-
-# Dataset
-df_4 = pd.read_csv('dataset/data_test_4.csv')
-
 """
 In previous result the model perform are great,but it just for a complete text,in the single text
 the model can't spesificly to predict a correct language text,so in this test i train again the
 model with dataset single text
 """
 
-# Cleaned data
-def clean_text_2(text):
-    text = text.lower()
-    text = re.sub(r'\d+', '', text)
-    text = text.translate(str.maketrans('', '', string.punctuation))
-    text = re.sub(r'\s+', '', text).strip()
-    text = ' '.join([word for word in  text.split() if word not in stop_words])
-    text = ' '.join([stemmer.stem(word) for word in text.split()])
-    return text
+# Dataset
+df_4 = pd.read_csv('dataset/data_test_4.csv')
+df = pd.concat([df, df_4], ignore_index=True)
 
-df_4['Cleaned_text'] = df_4['Text'].apply(clean_text_2)
+# Clean new dataset
+df['clean_text'] = df['Text'].apply(clean_text)
 
-# Feature
-X_4 = df_4['Cleaned_text']
+# Split the new dataset
+X_train, X_test, y_train, y_test = train_test_split(df['clean_text'], df['Language'], test_size=0.2, random_state=42)
 
-# Vectorized
+# Refit the model with new dataset
+X_train_vectorized = vectorizer.fit_transform(X_train)
+X_test_vectorized = vectorizer.transform(X_test)
+
+model.fit(X_train_vectorized, y_train)
+
+y_pred = model.predict(X_test_vectorized)
+
+# Test performa model
+
+# Read csv 
+df_4_1 = pd.read_csv('dataset/data_test_4.csv')
+
+# Clean text
+df_4_1['clean_text'] = df_4_1['Text'].apply(clean_text)
+
+# Feature and vectorized
+X_4 = df_4_1['clean_text']
 X_test_vectorized_4 = vectorizer.transform(X_4)
 
 # Prediction
 y_pred_4 = model.predict(X_test_vectorized_4)
-df_4['Predict Language'] = y_pred_4
+df_4_1['Language Predicted'] = y_pred_4
 
 # Save model
 # with open('model.pkl', 'wb') as f:
-#     pickle.dump(model, f)
+    # pickle.dump(model, f)
 
 # Save vectorizer
 # with open('vectorizer.pkl', 'wb') as f:
-#     pickle.dump(vectorizer, f)
+    # pickle.dump(vectorizer, f)
