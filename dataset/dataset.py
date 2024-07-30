@@ -283,3 +283,108 @@ df = pd.DataFrame(data_5)
 df = df.sample(frac=1).reset_index(drop=True)
 
 # df.to_csv('data_test_4.csv')
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+# DATASET V
+
+data_6 = {
+    'Text' : [
+        'Kau ini sudah melampau!!!',
+        'What\'s wrong men?',
+        'Aku sangat senang dengan hal ini!',
+        'Mom i scareddd!!',
+        'Bagaimana mungkin!!!',
+        'What are you doing men,YOU BROKE MY PHONE!!!',
+        'Kemarin aku baru saja ditinggalkan pacarku....',
+        'Woww!! that a beautiful flower!!',
+        'MAMAH AKU TAKUTTT!!!',
+        'Hahaha, that\'s a nice joke bro'
+        'I am so happy today!',
+        'This is the worst day ever.',
+        'I am feeling very sad and depressed.',
+        'What a wonderful surprise!',
+        'I am scared of the dark.',
+        'This makes me so angry!',
+        'I am disgusted by the food.',
+        'I feel very peaceful and calm.',
+        'I am extremely excited about the trip.',
+        'I am worried about the results.',
+        'Aku sangat bahagia hari ini!',
+        'Ini adalah hari terburuk yang pernah ada.',
+        'Aku merasa sangat sedih dan tertekan.',
+        'Sungguh kejutan yang indah!',
+        'Aku takut gelap.',
+        'Ini membuatku sangat marah!',
+        'Aku jijik dengan makanan ini.',
+        'Aku merasa sangat tenang dan damai.',
+        'Aku sangat bersemangat tentang perjalanan ini.',
+        'Aku khawatir tentang hasilnya.',
+        'What a nice day',
+        'Really? i dont know what wrong with her',
+        'Wait what going here? a party...',
+        'makanan ini aneh sekali rasanya',
+        'bagaimana ini... aku tidak sengaja menjatuhkannya',
+        'aku tidak tau lagi bagaimana melakukannya',
+        'what should i do for my homework',
+        'i cant, i cant do it this!!',
+        'Aku takut dengan hewan itu!',
+        'Tolong jangan lakukan itu,itu vas mahal!!',
+        'I cant believe this product, its so scared!',
+        'AKU SUDAH MUAK DENGAN INI!!!',
+        'JANGAN LAKUKAN ITU!!',
+        'please out of here!!',
+        'its that your fault!!!',
+        'ahhh leave me ALONE!!!',
+        'kumohon jangan tinggalkan aku!',
+        't-tapi itu kan punyaku',
+        'yeah okay i live it her for you',
+        'baiklah jika itu maumu...',
+        'i can live without her...',
+        'no,nooo please dont leave me alone',
+        'itu apa pak?',
+        'bagaimana ya caranya?',
+        'kurasa ini bukan caranya',
+        'its okay,if you happy with her,im fine',
+        'aduh bagaimana ini',
+        'ini sangat aneh sekali',
+        'what the hell is this!',
+        'ewwww thats so weird!!',
+        'kau ini sangat aneh sekali',
+        'kue ini sangat aneh rasanya',
+        'what are her doing in my room',
+        'i cant believe this is food',
+        'ALAMAK KAGET',
+        'Wowwww this car is my present?',
+        'Wow i cant believe this is amazing!',
+        'Thats very suprising!!',
+        'ini sebuah kejutan yang sangat tidak terduga',
+        'Ini adalah kado terbaik!!',
+        'Absolut cinema!!'
+    ],
+
+    'Language': [
+        'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia', 'English', 
+        'English', 'English', 'English', 'English', 'English', 'English', 'English', 'English', 'English', 'English', 
+        'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 
+        'English', 'English', 'English', 'Indonesia', 'Indonesia', 'Indonesia', 'English', 'English', 'Indonesia', 'Indonesia', 
+        'English', 'Indonesia', 'Indonesia', 'English', 'English', 'English', 'Indonesia', 'Indonesia', 'English', 'Indonesia', 
+        'English', 'English', 'Indonesia', 'Indonesia', 'Indonesia', 'English', 'Indonesia', 'Indonesia', 'English', 'English', 
+        'Indonesia', 'Indonesia', 'English', 'English', 'Indonesia', 'English', 'English', 'English', 'Indonesia', 'Indonesia'
+    ],
+
+    'Emotion': [
+        'anger', 'confused', 'joy', 'fear', 'surprise', 'anger', 'sadness', 'joy', 'fear', 'joy',
+        'joy', 'anger', 'sadness', 'surprise', 'fear', 'anger', 'disgust', 'joy', 'joy', 'fear',
+        'joy', 'anger', 'sadness', 'surprise', 'fear', 'anger', 'disgust', 'joy', 'joy', 'fear',
+        'joy', 'confused', 'surprise', 'disgust', 'confused', 'confused', 'confused', 'fear', 'fear', 'fear',
+        'fear', 'anger', 'anger', 'anger', 'anger', 'confused', 'sadness', 'sadness', 'sadness', 'sadness',
+        'sadness', 'sadness', 'confused', 'confused', 'confused', 'sadness', 'confused', 'disgust', 'disgust', 'disgust',
+        'disgust', 'disgust', 'disgust', 'disgust', 'surprise', 'surprise', 'surprise', 'surprise', 'surprise', 'surprice'
+    ]
+}
+
+df = pd.DataFrame(data_6)
+df.sample(frac=1).reset_index(drop=True)
+
+df.to_csv('dataset/data_train_2.csv')
