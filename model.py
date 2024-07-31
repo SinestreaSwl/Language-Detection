@@ -3,12 +3,15 @@ import re
 import string
 import pickle
 from sklearn.model_selection import train_test_split
-from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, recall_score, f1_score, precision_score
+from sklearn.multioutput import MultiOutputClassifier
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
  
+# MODEL I | TRAINING
+
 # Dataset
 df = pd.read_csv('dataset/data_train.csv')
 
@@ -47,7 +50,7 @@ Model Accuracy: 0.9166666666666666
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - # 
 
-# TEST I
+# TEST I | MODEL I
 
 # Dataset
 df_1 = pd.read_csv('dataset/data_test.csv')
@@ -80,9 +83,11 @@ Precision: 0.9477611940298508
 Recall: 0.9416666666666667
 F1-Score: 0.9414674935544561
 """
+
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - # 
 
-# TEST II
+# TEST II | MODEL I
+
 df_2 = pd.read_csv('dataset/data_test_2.csv')
 
 """
@@ -120,7 +125,8 @@ F1-Score: 0.988
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - # 
 
-# TEST III
+# TEST III | MODEL I
+
 df_3 = pd.read_csv('dataset/data_test_3.csv')
 
 """
@@ -158,7 +164,7 @@ F1-Score: 0.9499687304565352
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - # 
 
-# TEST IV
+# TEST IV | MODEL I
 
 """
 In previous result the model perform are great,but it just for a complete text,in the single text
@@ -200,10 +206,47 @@ X_test_vectorized_4 = vectorizer.transform(X_4)
 y_pred_4 = model.predict(X_test_vectorized_4)
 df_4_1['Language Predicted'] = y_pred_4
 
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - # 
+
+# MODEL II | TRAINING
+
+"""
+because in the previously testing,model can more effective to predicted input data,so i want to
+make the model can predict more language,besides indonesian,and english
+"""
+
+# Datatrain
+df_train_2 = pd.read_csv('dataset/data_train_2.csv')
+
+# Clean the text
+df_train_2['clean_text'] = df_train_2['Text'].apply(clean_text)
+
+# Split dataset
+X_train_2, X_test_2, y_train_2, y_test_2 = train_test_split(df_train_2['clean_text'], df_train_2[['Language', 'Emotion']], test_size=0.2, random_state=42)
+
+# Feature Extraction
+vectorizer_TF_IDF = TfidfVectorizer(ngram_range=(1, 3), analyzer='word')
+X_train_2_vectorizer = vectorizer_TF_IDF.fit_transform(X_train_2)
+X_test_2_vectorizer = vectorizer_TF_IDF.transform(X_test_2)
+
+# Model building
+multi_output_model = MultiOutputClassifier(model, n_jobs=1)
+multi_output_model.fit(X_train_2_vectorizer, y_train_2)
+
+# Predict
+y_pred_model_2 = multi_output_model.predict(X_test_2_vectorizer)
+
+# Evaluate score
+accuracy_lang = accuracy_score(y_test_2['Language'], y_pred_model_2[:, 0])
+accuracy_emotion = accuracy_score(y_test_2['Emotion'], y_pred_model_2[:, 1])
+
+# print(f'Language Prediction Accuracy: {accuracy_lang}')
+# print(f'Emotion Prediction Accuracy: {accuracy_emotion}')
+
 # Save model
 # with open('model.pkl', 'wb') as f:
-    # pickle.dump(model, f)
+#     pickle.dump(model, f)
 
-# Save vectorizer
+# # Save vectorizer
 # with open('vectorizer.pkl', 'wb') as f:
-    # pickle.dump(vectorizer, f)
+#     pickle.dump(vectorizer, f)

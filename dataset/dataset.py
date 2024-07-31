@@ -385,6 +385,6 @@ data_6 = {
 }
 
 df = pd.DataFrame(data_6)
-df.sample(frac=1).reset_index(drop=True)
+# df.sample(frac=1).reset_index(drop=True)
 
 df.to_csv('dataset/data_train_2.csv')
