@@ -10,7 +10,7 @@ from sklearn.multioutput import MultiOutputClassifier
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
  
-# MODEL I | TRAINING
+# TRAINING I
 
 # Dataset
 df = pd.read_csv('dataset/data_train.csv')
@@ -50,7 +50,7 @@ Model Accuracy: 0.9166666666666666
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - # 
 
-# TEST I | MODEL I
+# TEST I
 
 # Dataset
 df_1 = pd.read_csv('dataset/data_test.csv')
@@ -86,7 +86,7 @@ F1-Score: 0.9414674935544561
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - # 
 
-# TEST II | MODEL I
+# TEST II
 
 df_2 = pd.read_csv('dataset/data_test_2.csv')
 
@@ -125,7 +125,7 @@ F1-Score: 0.988
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - # 
 
-# TEST III | MODEL I
+# TEST III
 
 df_3 = pd.read_csv('dataset/data_test_3.csv')
 
@@ -164,7 +164,7 @@ F1-Score: 0.9499687304565352
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - # 
 
-# TEST IV | MODEL I
+# TEST IV
 
 """
 In previous result the model perform are great,but it just for a complete text,in the single text
@@ -208,7 +208,7 @@ df_4_1['Language Predicted'] = y_pred_4
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - # 
 
-# MODEL II | TRAINING
+# TRAINING II
 
 """
 because in the previously testing,model can more effective to predicted input data,so i want to
@@ -250,3 +250,22 @@ accuracy_emotion = accuracy_score(y_test_2['Emotion'], y_pred_model_2[:, 1])
 # # Save vectorizer
 # with open('vectorizer.pkl', 'wb') as f:
 #     pickle.dump(vectorizer, f)
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - # 
+
+# TEST V
+
+# Dataset
+df_5 = pd.read_csv('dataset/data_test_5.csv')
+
+# Text cleaning
+df_5['clean_text'] = df_5['Text'].apply(clean_text)
+
+# Feature and vectorized
+X_5 = df_5['clean_text']
+X_test_vectorized_5 = vectorizer_TF_IDF.transform(X_5)
+
+# Prediction
+y_pred_5 = multi_output_model.predict(X_test_vectorized_5)
+df_5[['Prediction_lang', 'Prediction_emotion']] = y_pred_5
+df_5.to_csv('kuso.csv')

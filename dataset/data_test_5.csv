@@ -1,0 +1,131 @@
+,Text,Language,Emotion
+0,Hari ini sangat menyenangkan!,Indonesia,joy
+1,Aku sangat bahagia!,Indonesia,joy
+2,Kue ini enak sekali!,Indonesia,joy
+3,Aku tidak percaya ini terjadi!,Indonesia,joy
+4,Luar biasa!,Indonesia,joy
+5,Sungguh hari yang indah!,Indonesia,joy
+6,Aku merasa sangat tenang.,Indonesia,joy
+7,Aku sangat puas.,Indonesia,joy
+8,Hasilnya luar biasa!,Indonesia,joy
+9,Aku sangat senang dengan pencapaianku!,Indonesia,joy
+10,Ini membuatku sangat marah!,Indonesia,anger
+11,Aku benar-benar marah!,Indonesia,anger
+12,Ini tidak bisa diterima!,Indonesia,anger
+13,Kau membuatku marah!,Indonesia,anger
+14,Aku tidak percaya ini terjadi!,Indonesia,anger
+15,Kau keterlaluan!,Indonesia,anger
+16,Ini tidak bisa dibiarkan!,Indonesia,anger
+17,Aku tidak terima ini!,Indonesia,anger
+18,Aku sangat marah!,Indonesia,anger
+19,Kau sungguh menjengkelkan!,Indonesia,anger
+20,Aku jijik dengan ini!,Indonesia,disgust
+21,Makanan ini menjijikkan!,Indonesia,disgust
+22,Aku tidak tahan dengan bau ini!,Indonesia,disgust
+23,Ini sangat menjijikkan!,Indonesia,disgust
+24,Aku muak dengan ini!,Indonesia,disgust
+25,Kau sangat menjijikkan!,Indonesia,disgust
+26,Tempat ini sangat kotor!,Indonesia,disgust
+27,Aku tidak suka ini!,Indonesia,disgust
+28,Aku tidak tahan dengan ini!,Indonesia,disgust
+29,Ini sangat kotor!,Indonesia,disgust
+30,Aku sangat sedih.,Indonesia,sadness
+31,Hari ini sangat buruk.,Indonesia,sadness
+32,Aku merasa sangat tertekan.,Indonesia,sadness
+33,Aku kehilangan semangat.,Indonesia,sadness
+34,Aku sangat kecewa.,Indonesia,sadness
+35,Aku merasa sangat sendiri.,Indonesia,sadness
+36,Aku tidak tahu harus bagaimana lagi.,Indonesia,sadness
+37,Aku benar-benar hancur.,Indonesia,sadness
+38,Ini sangat menyedihkan.,Indonesia,sadness
+39,Aku merasa sangat putus asa.,Indonesia,sadness
+40,Aku takut dengan ini!,Indonesia,fear
+41,Aku sangat khawatir!,Indonesia,fear
+42,Ini membuatku sangat takut!,Indonesia,fear
+43,Aku tidak berani melihatnya!,Indonesia,fear
+44,Aku sangat cemas.,Indonesia,fear
+45,Ini sangat menakutkan!,Indonesia,fear
+46,Aku takut gelap.,Indonesia,fear
+47,Aku merasa sangat takut.,Indonesia,fear
+48,Aku tidak tahu harus bagaimana.,Indonesia,fear
+49,Ini membuatku sangat cemas.,Indonesia,fear
+50,Ini adalah kejutan besar!,Indonesia,surprise
+51,Aku tidak percaya ini!,Indonesia,surprise
+52,"Wow, luar biasa!",Indonesia,surprise
+53,Ini sangat mengejutkan!,Indonesia,surprise
+54,Aku sangat terkejut!,Indonesia,surprise
+55,Ini benar-benar di luar dugaan!,Indonesia,surprise
+56,Aku tidak menyangka ini!,Indonesia,surprise
+57,"Wow, sungguh mengejutkan!",Indonesia,surprise
+58,Aku benar-benar terkejut!,Indonesia,surprise
+59,Ini sungguh luar biasa!,Indonesia,surprise
+60,Aku bingung harus bagaimana.,Indonesia,confused
+61,Aku tidak tahu harus melakukan apa.,Indonesia,confused
+62,Ini sangat membingungkan.,Indonesia,confused
+63,Aku tidak mengerti ini.,Indonesia,confused
+64,Apa yang terjadi?,Indonesia,confused
+65,Aku benar-benar bingung.,Indonesia,confused
+66,Aku tidak tahu harus bagaimana lagi.,Indonesia,confused
+67,Ini sangat membingungkan.,Indonesia,confused
+68,Aku tidak bisa memahaminya.,Indonesia,confused
+69,Ini benar-benar aneh.,Indonesia,confused
+70,Today is a wonderful day!,English,joy
+71,I am so happy!,English,joy
+72,This cake is delicious!,English,joy
+73,I can't believe this is happening!,English,joy
+74,Amazing!,English,joy
+75,Such a beautiful day!,English,joy
+76,I feel so calm.,English,joy
+77,I am very satisfied.,English,joy
+78,The results are amazing!,English,joy
+79,I am very pleased with my achievement!,English,joy
+80,This makes me so angry!,English,anger
+81,I am really mad!,English,anger
+82,This is unacceptable!,English,anger
+83,You make me angry!,English,anger
+84,I can't believe this is happening!,English,anger
+85,You are outrageous!,English,anger
+86,This is intolerable!,English,anger
+87,I can't accept this!,English,anger
+88,I am so mad!,English,anger
+89,You are so annoying!,English,anger
+90,I am disgusted by this!,English,disgust
+91,This food is disgusting!,English,disgust
+92,I can't stand the smell of this!,English,disgust
+93,This is so gross!,English,disgust
+94,I am sick of this!,English,disgust
+95,You are so disgusting!,English,disgust
+96,This place is so dirty!,English,disgust
+97,I don't like this!,English,disgust
+98,I can't stand this!,English,disgust
+99,This is so filthy!,English,disgust
+100,I am very sad.,English,sadness
+101,Today is a terrible day.,English,sadness
+102,I feel very depressed.,English,sadness
+103,I have lost my spirit.,English,sadness
+104,I am very disappointed.,English,sadness
+105,I feel very lonely.,English,sadness
+106,I don't know what to do anymore.,English,sadness
+107,I am truly devastated.,English,sadness
+108,This is very sad.,English,sadness
+109,I feel very hopeless.,English,sadness
+110,I am scared of this!,English,fear
+111,I am very worried!,English,fear
+112,This makes me very scared!,English,fear
+113,I don't dare to look at it!,English,fear
+114,I am very anxious.,English,fear
+115,This is very scary!,English,fear
+116,I am afraid of the dark.,English,fear
+117,I feel very scared.,English,fear
+118,I don't know what to do.,English,fear
+119,This makes me very anxious.,English,fear
+120,This is a big surprise!,English,surprise
+121,I can't believe this!,English,surprise
+122,"Wow, amazing!",English,surprise
+123,This is very surprising!,English,surprise
+124,I am very surprised!,English,surprise
+125,This is really unexpected!,English,surprise
+126,I didn't expect this!,English,surprise
+127,"Wow, really surprising!",English,surprise
+128,I am truly shocked!,English,surprise
+129,This is truly amazing!,English,surprise
