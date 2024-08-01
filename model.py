@@ -240,8 +240,8 @@ y_pred_model_2 = multi_output_model.predict(X_test_2_vectorizer)
 accuracy_lang = accuracy_score(y_test_2['Language'], y_pred_model_2[:, 0])
 accuracy_emotion = accuracy_score(y_test_2['Emotion'], y_pred_model_2[:, 1])
 
-# print(f'Language Prediction Accuracy: {accuracy_lang}')
-# print(f'Emotion Prediction Accuracy: {accuracy_emotion}')
+print(f'Language Prediction Accuracy: {accuracy_lang}')
+print(f'Emotion Prediction Accuracy: {accuracy_emotion}')
 
 # Save model
 # with open('model.pkl', 'wb') as f:
@@ -256,16 +256,15 @@ accuracy_emotion = accuracy_score(y_test_2['Emotion'], y_pred_model_2[:, 1])
 # TEST V
 
 # Dataset
-df_5 = pd.read_csv('dataset/data_test_5.csv')
+# df_5 = pd.read_csv('dataset/data_test_5.csv')
 
-# Text cleaning
-df_5['clean_text'] = df_5['Text'].apply(clean_text)
+# # Text cleaning
+# df_5['clean_text'] = df_5['Text'].apply(clean_text)
 
-# Feature and vectorized
-X_5 = df_5['clean_text']
-X_test_vectorized_5 = vectorizer_TF_IDF.transform(X_5)
+# # Feature and vectorized
+# X_5 = df_5['clean_text']
+# X_test_vectorized_5 = vectorizer_TF_IDF.transform(X_5)
 
-# Prediction
-y_pred_5 = multi_output_model.predict(X_test_vectorized_5)
-df_5[['Prediction_lang', 'Prediction_emotion']] = y_pred_5
-df_5.to_csv('kuso.csv')
+# # Prediction
+# y_pred_5 = multi_output_model.predict(X_test_vectorized_5)
+# df_5[['Prediction_lang', 'Prediction_emotion']] = y_pred_5

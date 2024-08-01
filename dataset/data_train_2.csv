@@ -1,71 +1,61 @@
 ,Text,Language,Emotion
-0,Kau ini sudah melampau!!!,Indonesia,anger
-1,What's wrong men?,English,confused
-2,Aku sangat senang dengan hal ini!,Indonesia,joy
-3,Mom i scareddd!!,English,fear
-4,Bagaimana mungkin!!!,Indonesia,surprise
-5,"What are you doing men,YOU BROKE MY PHONE!!!",English,anger
-6,Kemarin aku baru saja ditinggalkan pacarku....,Indonesia,sadness
-7,Woww!! that a beautiful flower!!,English,joy
-8,MAMAH AKU TAKUTTT!!!,Indonesia,fear
-9,"Hahaha, that's a nice joke broI am so happy today!",English,joy
-10,This is the worst day ever.,English,joy
-11,I am feeling very sad and depressed.,English,anger
-12,What a wonderful surprise!,English,sadness
-13,I am scared of the dark.,English,surprise
-14,This makes me so angry!,English,fear
-15,I am disgusted by the food.,English,anger
-16,I feel very peaceful and calm.,English,disgust
-17,I am extremely excited about the trip.,English,joy
-18,I am worried about the results.,English,joy
-19,Aku sangat bahagia hari ini!,English,fear
-20,Ini adalah hari terburuk yang pernah ada.,Indonesia,joy
-21,Aku merasa sangat sedih dan tertekan.,Indonesia,anger
-22,Sungguh kejutan yang indah!,Indonesia,sadness
-23,Aku takut gelap.,Indonesia,surprise
-24,Ini membuatku sangat marah!,Indonesia,fear
-25,Aku jijik dengan makanan ini.,Indonesia,anger
-26,Aku merasa sangat tenang dan damai.,Indonesia,disgust
-27,Aku sangat bersemangat tentang perjalanan ini.,Indonesia,joy
-28,Aku khawatir tentang hasilnya.,Indonesia,joy
-29,What a nice day,Indonesia,fear
-30,Really? i dont know what wrong with her,English,joy
-31,Wait what going here? a party...,English,confused
-32,makanan ini aneh sekali rasanya,English,surprise
-33,bagaimana ini... aku tidak sengaja menjatuhkannya,Indonesia,disgust
-34,aku tidak tau lagi bagaimana melakukannya,Indonesia,confused
-35,what should i do for my homework,Indonesia,confused
-36,"i cant, i cant do it this!!",English,confused
-37,Aku takut dengan hewan itu!,English,fear
-38,"Tolong jangan lakukan itu,itu vas mahal!!",Indonesia,fear
-39,"I cant believe this product, its so scared!",Indonesia,fear
-40,AKU SUDAH MUAK DENGAN INI!!!,English,fear
-41,JANGAN LAKUKAN ITU!!,Indonesia,anger
-42,please out of here!!,Indonesia,anger
-43,its that your fault!!!,English,anger
-44,ahhh leave me ALONE!!!,English,anger
-45,kumohon jangan tinggalkan aku!,English,confused
-46,t-tapi itu kan punyaku,Indonesia,sadness
-47,yeah okay i live it her for you,Indonesia,sadness
-48,baiklah jika itu maumu...,English,sadness
-49,i can live without her...,Indonesia,sadness
-50,"no,nooo please dont leave me alone",English,sadness
-51,itu apa pak?,English,sadness
-52,bagaimana ya caranya?,Indonesia,confused
-53,kurasa ini bukan caranya,Indonesia,confused
-54,"its okay,if you happy with her,im fine",Indonesia,confused
-55,aduh bagaimana ini,English,sadness
-56,ini sangat aneh sekali,Indonesia,confused
-57,what the hell is this!,Indonesia,disgust
-58,ewwww thats so weird!!,English,disgust
-59,kau ini sangat aneh sekali,English,disgust
-60,kue ini sangat aneh rasanya,Indonesia,disgust
-61,what are her doing in my room,Indonesia,disgust
-62,i cant believe this is food,English,disgust
-63,ALAMAK KAGET,English,disgust
-64,Wowwww this car is my present?,Indonesia,surprise
-65,Wow i cant believe this is amazing!,English,surprise
-66,Thats very suprising!!,English,surprise
-67,ini sebuah kejutan yang sangat tidak terduga,English,surprise
-68,Ini adalah kado terbaik!!,Indonesia,surprise
-69,Absolut cinema!!,English,surprise
+0,Wow thanks man,English,Joy
+1,YEAHHH! That my friend,English,Joy
+2,Really that for me?wow thanks,English,Joy
+3,TCHH HUMAN!!SO ANNOYING,English,Anger
+4,Itu benar benar hadiah yang tidak terduga,Indonesia,Joy
+5,Hahaha aku menang,Indonesia,Joy
+6,That so annoying!!,English,Anger
+7,Sudah cukup atau kutampar kau!,Indonesia,Anger
+8,Aku menang cihuyy,Indonesia,Joy
+9,Hahaha I win,English,Joy
+10,What do you mean huh?wanna fight,English,Anger
+11,Kau ini sudah melampau!,Indonesia,Anger
+12,Kau ini bodoh sekali,Indonesia,Anger
+13,Anak kurang ajar!!,Indonesia,Anger
+14,Walawe gacor banget,Indonesia,Joy
+15,I win yeahhh,English,Joy
+16,Thanks for approach me in this company!,English,Joy
+17,AARGGHHHH Dont touch MY PHONE STUPID!,English,Anger
+18,SHUT UP FUCK OFF!!,English,Anger
+19,Youre Idiot,English,Anger
+20,So this is my first job?wow,English,Joy
+21,Ini untukku? wah terima kasih,Indonesia,Joy
+22,Jangan dipikirkan,Indonesia,Joy
+23,Nyahahaha i win that lottery,English,Joy
+24,Its really you man,English,Joy
+25,Dasar durjana!!,Indonesia,Anger
+26,Cihuyyyy menggacor kang,Indonesia,Joy
+27,Dasar bajingan!,Indonesia,Anger
+28,Si bajingan itu,Indonesia,Anger
+29,Ini hadiah untuk mu,Indonesia,Joy
+30,Dont touch me you dirty!!,English,Anger
+31,No just kidding mom,English,Joy
+32,Fuck off,English,Anger
+33,Tidak masalah aku masih ada satu lagi,Indonesia,Joy
+34,Itu benar benar kau teman,Indonesia,Joy
+35,Dia benar benar bodoh ya,Indonesia,Anger
+36,Yaaaa! itulah temanku,Indonesia,Joy
+37,You are so stupid,English,Anger
+38,It is present for you,English,Joy
+39,Wah terima kasih bro,Indonesia,Joy
+40,Enough! i said dont do it!!,English,Anger
+41,Another stupid consument,English,Anger
+42,Arghh another stupid couple!,English,Anger
+43,Sudahlah aku sudah muak dengan mu,Indonesia,Anger
+44,Sialan dia menipuku!,Indonesia,Anger
+45,Kau ini benar benar bodoh!,Indonesia,Anger
+46,Sudahku bilang jangan lakukan itu,Indonesia,Anger
+47,Kau ini bodoh ya?,Indonesia,Anger
+48,Dont mind,English,Joy
+49,Dont touch her bitch!!,English,Anger
+50,Ofcourse i so happy,English,Joy
+51,Really i win the game?wow,English,Joy
+52,You fucking bitch,English,Anger
+53,Tentu saja aku senang,Indonesia,Joy
+54,Beneran aku menang?wow,Indonesia,Joy
+55,Dasar tolol,Indonesia,Anger
+56,Youre stupid man?,English,Anger
+57,Dasar pembohong!,Indonesia,Anger
+58,Benarkan itu untuk ku?wah terima kasih,Indonesia,Joy
+59,Maybe you re just not lucky today,English,Joy

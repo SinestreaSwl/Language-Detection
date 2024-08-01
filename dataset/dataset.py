@@ -289,178 +289,55 @@ df = df.sample(frac=1).reset_index(drop=True)
 # DATASET V
 
 data_6 = {
+
     'Text' : [
-        'Kau ini sudah melampau!!!',
-        'What\'s wrong men?',
-        'Aku sangat senang dengan hal ini!',
-        'Mom i scareddd!!',
-        'Bagaimana mungkin!!!',
-        'What are you doing men,YOU BROKE MY PHONE!!!',
-        'Kemarin aku baru saja ditinggalkan pacarku....',
-        'Woww!! that a beautiful flower!!',
-        'MAMAH AKU TAKUTTT!!!',
-        'Hahaha, that\'s a nice joke bro'
-        'I am so happy today!',
-        'This is the worst day ever.',
-        'I am feeling very sad and depressed.',
-        'What a wonderful surprise!',
-        'I am scared of the dark.',
-        'This makes me so angry!',
-        'I am disgusted by the food.',
-        'I feel very peaceful and calm.',
-        'I am extremely excited about the trip.',
-        'I am worried about the results.',
-        'Aku sangat bahagia hari ini!',
-        'Ini adalah hari terburuk yang pernah ada.',
-        'Aku merasa sangat sedih dan tertekan.',
-        'Sungguh kejutan yang indah!',
-        'Aku takut gelap.',
-        'Ini membuatku sangat marah!',
-        'Aku jijik dengan makanan ini.',
-        'Aku merasa sangat tenang dan damai.',
-        'Aku sangat bersemangat tentang perjalanan ini.',
-        'Aku khawatir tentang hasilnya.',
-        'What a nice day',
-        'Really? i dont know what wrong with her',
-        'Wait what going here? a party...',
-        'makanan ini aneh sekali rasanya',
-        'bagaimana ini... aku tidak sengaja menjatuhkannya',
-        'aku tidak tau lagi bagaimana melakukannya',
-        'what should i do for my homework',
-        'i cant, i cant do it this!!',
-        'Aku takut dengan hewan itu!',
-        'Tolong jangan lakukan itu,itu vas mahal!!',
-        'I cant believe this product, its so scared!',
-        'AKU SUDAH MUAK DENGAN INI!!!',
-        'JANGAN LAKUKAN ITU!!',
-        'please out of here!!',
-        'its that your fault!!!',
-        'ahhh leave me ALONE!!!',
-        'kumohon jangan tinggalkan aku!',
-        't-tapi itu kan punyaku',
-        'yeah okay i live it her for you',
-        'baiklah jika itu maumu...',
-        'i can live without her...',
-        'no,nooo please dont leave me alone',
-        'itu apa pak?',
-        'bagaimana ya caranya?',
-        'kurasa ini bukan caranya',
-        'its okay,if you happy with her,im fine',
-        'aduh bagaimana ini',
-        'ini sangat aneh sekali',
-        'what the hell is this!',
-        'ewwww thats so weird!!',
-        'kau ini sangat aneh sekali',
-        'kue ini sangat aneh rasanya',
-        'what are her doing in my room',
-        'i cant believe this is food',
-        'ALAMAK KAGET',
-        'Wowwww this car is my present?',
-        'Wow i cant believe this is amazing!',
-        'Thats very suprising!!',
-        'ini sebuah kejutan yang sangat tidak terduga',
-        'Ini adalah kado terbaik!!',
-        'Absolut cinema!!'
+        'Sudahku bilang jangan lakukan itu', 'Kau ini bodoh sekali', 'Dasar bajingan!', 'Dasar tolol', 'Kau ini bodoh ya?', # ANGER
+        'YEAHHH! That my friend', 'Wow thanks man', 'Ofcourse i so happy', 'I win yeahhh', 'Really i win the game?wow', # Joy
+        'Yaaaa! itulah temanku', 'Wah terima kasih bro', 'Tentu saja aku senang', 'Aku menang cihuyy', 'Beneran aku menang?wow', # Joy
+        'Enough! i said dont do it!!', 'You are so stupid', 'Fuck off', 'Youre Idiot', 'Youre stupid man?', # Anger
+        'Benarkan itu untuk ku?wah terima kasih', 'Itu benar benar kau teman', 'Ini hadiah untuk mu', 'Jangan dipikirkan', 'Hahaha aku menang', # Joy
+        'Really that for me?wow thanks', 'Its really you man', 'It is present for you', 'Dont mind', 'Hahaha I win', # Joy
+        'Kau ini sudah melampau!', 'Si bajingan itu', 'Dia benar benar bodoh ya', 'Sudahlah aku sudah muak dengan mu', 'Dasar pembohong!', # Anger 
+        'You fucking bitch', 'AARGGHHHH Dont touch MY PHONE STUPID!', 'What do you mean huh?wanna fight', 'Another stupid consument', 'SHUT UP FUCK OFF!!', # Anger
+        'Itu benar benar hadiah yang tidak terduga', 'Tidak masalah aku masih ada satu lagi', 'Ini untukku? wah terima kasih', 'Walawe gacor banget', 'Cihuyyyy menggacor kang', # Joy
+        'Nyahahaha i win that lottery', 'Maybe you re just not lucky today', 'So this is my first job?wow', 'No just kidding mom', 'Thanks for approach me in this company!', # Joy
+        'Dasar durjana!!', 'Kau ini benar benar bodoh!', 'Sialan dia menipuku!', 'Anak kurang ajar!!', 'Sudah cukup atau kutampar kau!', # Anger
+        'Dont touch her bitch!!', 'Arghh another stupid couple!', 'That so annoying!!', 'Dont touch me you dirty!!', 'TCHH HUMAN!!SO ANNOYING' # Anger
+    ],
+    
+    'Language' : [
+        'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia',
+        'English', 'English', 'English', 'English', 'English',
+        'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia',
+        'English', 'English', 'English', 'English', 'English',
+        'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia',
+        'English', 'English', 'English', 'English', 'English',
+        'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia',
+        'English', 'English', 'English', 'English', 'English',
+        'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia',
+        'English', 'English', 'English', 'English', 'English',
+        'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia',
+        'English', 'English', 'English', 'English', 'English',
     ],
 
-    'Language': [
-        'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia', 'English', 'Indonesia', 'English', 
-        'English', 'English', 'English', 'English', 'English', 'English', 'English', 'English', 'English', 'English', 
-        'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 
-        'English', 'English', 'English', 'Indonesia', 'Indonesia', 'Indonesia', 'English', 'English', 'Indonesia', 'Indonesia', 
-        'English', 'Indonesia', 'Indonesia', 'English', 'English', 'English', 'Indonesia', 'Indonesia', 'English', 'Indonesia', 
-        'English', 'English', 'Indonesia', 'Indonesia', 'Indonesia', 'English', 'Indonesia', 'Indonesia', 'English', 'English', 
-        'Indonesia', 'Indonesia', 'English', 'English', 'Indonesia', 'English', 'English', 'English', 'Indonesia', 'Indonesia'
-    ],
-
-    'Emotion': [
-        'anger', 'confused', 'joy', 'fear', 'surprise', 'anger', 'sadness', 'joy', 'fear', 'joy',
-        'joy', 'anger', 'sadness', 'surprise', 'fear', 'anger', 'disgust', 'joy', 'joy', 'fear',
-        'joy', 'anger', 'sadness', 'surprise', 'fear', 'anger', 'disgust', 'joy', 'joy', 'fear',
-        'joy', 'confused', 'surprise', 'disgust', 'confused', 'confused', 'confused', 'fear', 'fear', 'fear',
-        'fear', 'anger', 'anger', 'anger', 'anger', 'confused', 'sadness', 'sadness', 'sadness', 'sadness',
-        'sadness', 'sadness', 'confused', 'confused', 'confused', 'sadness', 'confused', 'disgust', 'disgust', 'disgust',
-        'disgust', 'disgust', 'disgust', 'disgust', 'surprise', 'surprise', 'surprise', 'surprise', 'surprise', 'surprice'
+    'Emotion' : [
+        'Anger', 'Anger', 'Anger', 'Anger', 'Anger',
+        'Joy', 'Joy', 'Joy', 'Joy', 'Joy',
+        'Joy', 'Joy', 'Joy', 'Joy', 'Joy',
+        'Anger', 'Anger', 'Anger', 'Anger', 'Anger',
+        'Joy', 'Joy', 'Joy', 'Joy', 'Joy',
+        'Joy', 'Joy', 'Joy', 'Joy', 'Joy',
+        'Anger', 'Anger', 'Anger', 'Anger', 'Anger',
+        'Anger', 'Anger', 'Anger', 'Anger', 'Anger',
+        'Joy', 'Joy', 'Joy', 'Joy', 'Joy',
+        'Joy', 'Joy', 'Joy', 'Joy', 'Joy',
+        'Anger', 'Anger', 'Anger', 'Anger', 'Anger',
+        'Anger', 'Anger', 'Anger', 'Anger', 'Anger'
     ]
 }
 
 df = pd.DataFrame(data_6)
-# df.sample(frac=1).reset_index(drop=True)
+
+df = df.sample(frac=1).reset_index(drop=True)
 
 # df.to_csv('dataset/data_train_2.csv')
-
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
-
-# Dataset VI
-
-data_7 = {
-    'Text' : [
-        'Hari ini sangat menyenangkan!', 'Aku sangat bahagia!', 'Kue ini enak sekali!', 'Aku tidak percaya ini terjadi!', 
-        'Luar biasa!', 'Sungguh hari yang indah!', 'Aku merasa sangat tenang.', 'Aku sangat puas.', 'Hasilnya luar biasa!', 
-        'Aku sangat senang dengan pencapaianku!', 'Ini membuatku sangat marah!', 'Aku benar-benar marah!', 'Ini tidak bisa diterima!', 
-        'Kau membuatku marah!', 'Aku tidak percaya ini terjadi!', 'Kau keterlaluan!', 'Ini tidak bisa dibiarkan!', 
-        'Aku tidak terima ini!', 'Aku sangat marah!', 'Kau sungguh menjengkelkan!', 'Aku jijik dengan ini!', 'Makanan ini menjijikkan!', 
-        'Aku tidak tahan dengan bau ini!', 'Ini sangat menjijikkan!', 'Aku muak dengan ini!', 'Kau sangat menjijikkan!', 
-        'Tempat ini sangat kotor!', 'Aku tidak suka ini!', 'Aku tidak tahan dengan ini!', 'Ini sangat kotor!', 
-        'Aku sangat sedih.', 'Hari ini sangat buruk.', 'Aku merasa sangat tertekan.', 'Aku kehilangan semangat.', 
-        'Aku sangat kecewa.', 'Aku merasa sangat sendiri.', 'Aku tidak tahu harus bagaimana lagi.', 'Aku benar-benar hancur.', 
-        'Ini sangat menyedihkan.', 'Aku merasa sangat putus asa.', 'Aku takut dengan ini!', 'Aku sangat khawatir!', 
-        'Ini membuatku sangat takut!', 'Aku tidak berani melihatnya!', 'Aku sangat cemas.', 'Ini sangat menakutkan!', 
-        'Aku takut gelap.', 'Aku merasa sangat takut.', 'Aku tidak tahu harus bagaimana.', 'Ini membuatku sangat cemas.', 
-        'Ini adalah kejutan besar!', 'Aku tidak percaya ini!', 'Wow, luar biasa!', 'Ini sangat mengejutkan!', 'Aku sangat terkejut!', 
-        'Ini benar-benar di luar dugaan!', 'Aku tidak menyangka ini!', 'Wow, sungguh mengejutkan!', 'Aku benar-benar terkejut!', 
-        'Ini sungguh luar biasa!', 'Aku bingung harus bagaimana.', 'Aku tidak tahu harus melakukan apa.', 'Ini sangat membingungkan.', 
-        'Aku tidak mengerti ini.', 'Apa yang terjadi?', 'Aku benar-benar bingung.', 'Aku tidak tahu harus bagaimana lagi.', 
-        'Ini sangat membingungkan.', 'Aku tidak bisa memahaminya.', 'Ini benar-benar aneh.', 'Today is a wonderful day!', 
-        'I am so happy!', 'This cake is delicious!', 'I can\'t believe this is happening!', 'Amazing!', 'Such a beautiful day!', 
-        'I feel so calm.', 'I am very satisfied.', 'The results are amazing!', 'I am very pleased with my achievement!', 
-        'This makes me so angry!', 'I am really mad!', 'This is unacceptable!', 'You make me angry!', 'I can\'t believe this is happening!', 
-        'You are outrageous!', 'This is intolerable!', 'I can\'t accept this!', 'I am so mad!', 'You are so annoying!', 
-        'I am disgusted by this!', 'This food is disgusting!', 'I can\'t stand the smell of this!', 'This is so gross!', 
-        'I am sick of this!', 'You are so disgusting!', 'This place is so dirty!', 'I don\'t like this!', 'I can\'t stand this!', 
-        'This is so filthy!', 'I am very sad.', 'Today is a terrible day.', 'I feel very depressed.', 'I have lost my spirit.', 
-        'I am very disappointed.', 'I feel very lonely.', 'I don\'t know what to do anymore.', 'I am truly devastated.', 
-        'This is very sad.', 'I feel very hopeless.', 'I am scared of this!', 'I am very worried!', 'This makes me very scared!', 
-        'I don\'t dare to look at it!', 'I am very anxious.', 'This is very scary!', 'I am afraid of the dark.', 
-        'I feel very scared.', 'I don\'t know what to do.', 'This makes me very anxious.', 'This is a big surprise!', 
-        'I can\'t believe this!', 'Wow, amazing!', 'This is very surprising!', 'I am very surprised!', 'This is really unexpected!', 
-        'I didn\'t expect this!', 'Wow, really surprising!', 'I am truly shocked!', 'This is truly amazing!'
-    ],
-
-    'Language' : [
-        'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia',
-        'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia',
-        'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia',
-        'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia',
-        'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia',
-        'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia',
-        'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia',
-        'English', 'English', 'English', 'English', 'English', 'English', 'English', 'English', 'English', 'English',
-        'English', 'English', 'English', 'English', 'English', 'English', 'English', 'English', 'English', 'English',
-        'English', 'English', 'English', 'English', 'English', 'English', 'English', 'English', 'English', 'English',
-        'English', 'English', 'English', 'English', 'English', 'English', 'English', 'English', 'English', 'English',
-        'English', 'English', 'English', 'English', 'English', 'English', 'English', 'English', 'English', 'English',
-        'English', 'English', 'English', 'English', 'English', 'English', 'English', 'English', 'English', 'English'
-    ],
-
-    'Emotion' : [
-                'joy', 'joy', 'joy', 'joy', 'joy', 'joy', 'joy', 'joy', 'joy', 'joy',
-        'anger', 'anger', 'anger', 'anger', 'anger', 'anger', 'anger', 'anger', 'anger', 'anger',
-        'disgust', 'disgust', 'disgust', 'disgust', 'disgust', 'disgust', 'disgust', 'disgust', 'disgust', 'disgust',
-        'sadness', 'sadness', 'sadness', 'sadness', 'sadness', 'sadness', 'sadness', 'sadness', 'sadness', 'sadness',
-        'fear', 'fear', 'fear', 'fear', 'fear', 'fear', 'fear', 'fear', 'fear', 'fear',
-        'surprise', 'surprise', 'surprise', 'surprise', 'surprise', 'surprise', 'surprise', 'surprise', 'surprise', 'surprise',
-        'confused', 'confused', 'confused', 'confused', 'confused', 'confused', 'confused', 'confused', 'confused', 'confused',
-        'joy', 'joy', 'joy', 'joy', 'joy', 'joy', 'joy', 'joy', 'joy', 'joy',
-        'anger', 'anger', 'anger', 'anger', 'anger', 'anger', 'anger', 'anger', 'anger', 'anger',
-        'disgust', 'disgust', 'disgust', 'disgust', 'disgust', 'disgust', 'disgust', 'disgust', 'disgust', 'disgust',
-        'sadness', 'sadness', 'sadness', 'sadness', 'sadness', 'sadness', 'sadness', 'sadness', 'sadness', 'sadness',
-        'fear', 'fear', 'fear', 'fear', 'fear', 'fear', 'fear', 'fear', 'fear', 'fear',
-        'surprise', 'surprise', 'surprise', 'surprise', 'surprise', 'surprise', 'surprise', 'surprise', 'surprise', 'surprise',
-    ]
-}
-
-df = pd.DataFrame(data_7)
-
-# Save dataset
-df.to_csv('dataset/data_train_5.csv')
