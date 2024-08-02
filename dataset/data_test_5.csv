@@ -1,131 +1,61 @@
 ,Text,Language,Emotion
-0,Hari ini sangat menyenangkan!,Indonesia,joy
-1,Aku sangat bahagia!,Indonesia,joy
-2,Kue ini enak sekali!,Indonesia,joy
-3,Aku tidak percaya ini terjadi!,Indonesia,joy
-4,Luar biasa!,Indonesia,joy
-5,Sungguh hari yang indah!,Indonesia,joy
-6,Aku merasa sangat tenang.,Indonesia,joy
-7,Aku sangat puas.,Indonesia,joy
-8,Hasilnya luar biasa!,Indonesia,joy
-9,Aku sangat senang dengan pencapaianku!,Indonesia,joy
-10,Ini membuatku sangat marah!,Indonesia,anger
-11,Aku benar-benar marah!,Indonesia,anger
-12,Ini tidak bisa diterima!,Indonesia,anger
-13,Kau membuatku marah!,Indonesia,anger
-14,Aku tidak percaya ini terjadi!,Indonesia,anger
-15,Kau keterlaluan!,Indonesia,anger
-16,Ini tidak bisa dibiarkan!,Indonesia,anger
-17,Aku tidak terima ini!,Indonesia,anger
-18,Aku sangat marah!,Indonesia,anger
-19,Kau sungguh menjengkelkan!,Indonesia,anger
-20,Aku jijik dengan ini!,Indonesia,disgust
-21,Makanan ini menjijikkan!,Indonesia,disgust
-22,Aku tidak tahan dengan bau ini!,Indonesia,disgust
-23,Ini sangat menjijikkan!,Indonesia,disgust
-24,Aku muak dengan ini!,Indonesia,disgust
-25,Kau sangat menjijikkan!,Indonesia,disgust
-26,Tempat ini sangat kotor!,Indonesia,disgust
-27,Aku tidak suka ini!,Indonesia,disgust
-28,Aku tidak tahan dengan ini!,Indonesia,disgust
-29,Ini sangat kotor!,Indonesia,disgust
-30,Aku sangat sedih.,Indonesia,sadness
-31,Hari ini sangat buruk.,Indonesia,sadness
-32,Aku merasa sangat tertekan.,Indonesia,sadness
-33,Aku kehilangan semangat.,Indonesia,sadness
-34,Aku sangat kecewa.,Indonesia,sadness
-35,Aku merasa sangat sendiri.,Indonesia,sadness
-36,Aku tidak tahu harus bagaimana lagi.,Indonesia,sadness
-37,Aku benar-benar hancur.,Indonesia,sadness
-38,Ini sangat menyedihkan.,Indonesia,sadness
-39,Aku merasa sangat putus asa.,Indonesia,sadness
-40,Aku takut dengan ini!,Indonesia,fear
-41,Aku sangat khawatir!,Indonesia,fear
-42,Ini membuatku sangat takut!,Indonesia,fear
-43,Aku tidak berani melihatnya!,Indonesia,fear
-44,Aku sangat cemas.,Indonesia,fear
-45,Ini sangat menakutkan!,Indonesia,fear
-46,Aku takut gelap.,Indonesia,fear
-47,Aku merasa sangat takut.,Indonesia,fear
-48,Aku tidak tahu harus bagaimana.,Indonesia,fear
-49,Ini membuatku sangat cemas.,Indonesia,fear
-50,Ini adalah kejutan besar!,Indonesia,surprise
-51,Aku tidak percaya ini!,Indonesia,surprise
-52,"Wow, luar biasa!",Indonesia,surprise
-53,Ini sangat mengejutkan!,Indonesia,surprise
-54,Aku sangat terkejut!,Indonesia,surprise
-55,Ini benar-benar di luar dugaan!,Indonesia,surprise
-56,Aku tidak menyangka ini!,Indonesia,surprise
-57,"Wow, sungguh mengejutkan!",Indonesia,surprise
-58,Aku benar-benar terkejut!,Indonesia,surprise
-59,Ini sungguh luar biasa!,Indonesia,surprise
-60,Aku bingung harus bagaimana.,Indonesia,confused
-61,Aku tidak tahu harus melakukan apa.,Indonesia,confused
-62,Ini sangat membingungkan.,Indonesia,confused
-63,Aku tidak mengerti ini.,Indonesia,confused
-64,Apa yang terjadi?,Indonesia,confused
-65,Aku benar-benar bingung.,Indonesia,confused
-66,Aku tidak tahu harus bagaimana lagi.,Indonesia,confused
-67,Ini sangat membingungkan.,Indonesia,confused
-68,Aku tidak bisa memahaminya.,Indonesia,confused
-69,Ini benar-benar aneh.,Indonesia,confused
-70,Today is a wonderful day!,English,joy
-71,I am so happy!,English,joy
-72,This cake is delicious!,English,joy
-73,I can't believe this is happening!,English,joy
-74,Amazing!,English,joy
-75,Such a beautiful day!,English,joy
-76,I feel so calm.,English,joy
-77,I am very satisfied.,English,joy
-78,The results are amazing!,English,joy
-79,I am very pleased with my achievement!,English,joy
-80,This makes me so angry!,English,anger
-81,I am really mad!,English,anger
-82,This is unacceptable!,English,anger
-83,You make me angry!,English,anger
-84,I can't believe this is happening!,English,anger
-85,You are outrageous!,English,anger
-86,This is intolerable!,English,anger
-87,I can't accept this!,English,anger
-88,I am so mad!,English,anger
-89,You are so annoying!,English,anger
-90,I am disgusted by this!,English,disgust
-91,This food is disgusting!,English,disgust
-92,I can't stand the smell of this!,English,disgust
-93,This is so gross!,English,disgust
-94,I am sick of this!,English,disgust
-95,You are so disgusting!,English,disgust
-96,This place is so dirty!,English,disgust
-97,I don't like this!,English,disgust
-98,I can't stand this!,English,disgust
-99,This is so filthy!,English,disgust
-100,I am very sad.,English,sadness
-101,Today is a terrible day.,English,sadness
-102,I feel very depressed.,English,sadness
-103,I have lost my spirit.,English,sadness
-104,I am very disappointed.,English,sadness
-105,I feel very lonely.,English,sadness
-106,I don't know what to do anymore.,English,sadness
-107,I am truly devastated.,English,sadness
-108,This is very sad.,English,sadness
-109,I feel very hopeless.,English,sadness
-110,I am scared of this!,English,fear
-111,I am very worried!,English,fear
-112,This makes me very scared!,English,fear
-113,I don't dare to look at it!,English,fear
-114,I am very anxious.,English,fear
-115,This is very scary!,English,fear
-116,I am afraid of the dark.,English,fear
-117,I feel very scared.,English,fear
-118,I don't know what to do.,English,fear
-119,This makes me very anxious.,English,fear
-120,This is a big surprise!,English,surprise
-121,I can't believe this!,English,surprise
-122,"Wow, amazing!",English,surprise
-123,This is very surprising!,English,surprise
-124,I am very surprised!,English,surprise
-125,This is really unexpected!,English,surprise
-126,I didn't expect this!,English,surprise
-127,"Wow, really surprising!",English,surprise
-128,I am truly shocked!,English,surprise
-129,This is truly amazing!,English,surprise
+0,wew the fan so fantastic,English,Joy
+1,Hadeh rusak lagi memang bangsat,Indonesia,Anger
+2,Wewww i win the prize pool,English,Joy
+3,tch another job,English,Anger
+4,Come on man youre kidding right?,English,Anger
+5,"that a funny joke,now back to your work",English,Anger
+6,Goblok betul kau ini,Indonesia,Anger
+7,kau tahu aku kemarin dibelikan mesin gacor kemarin,Indonesia,Joy
+8,Cih dasar tidak berguna,Indonesia,Joy
+9,Nyahahaha menggacor kang,Indonesia,Joy
+10,That food so dirty!,English,Anger
+11,Aku berhasil melakukannya!,Indonesia,Anger
+12,ok ok jangan lakukan itu lagi jalang,Indonesia,Anger
+13,Ini yang terbaik,Indonesia,Anger
+14,Hadeh nambah kerjaan lagi,Indonesia,Joy
+15,wahaha aku dapat lagi,Indonesia,Joy
+16,wahaha i get again,English,Joy
+17,So useless,English,Anger
+18,wow ini makanan yang enak,Indonesia,Joy
+19,So fantastic,English,Joy
+20,what this is drink?so delicous,English,Joy
+21,you knew yesterday i bought claw machine?that very interesting,English,Joy
+22,Ayolah kau ini bercanda bukan,Indonesia,Anger
+23,"Upss, sorry bro i win the game!",English,Joy
+24,Arghh so annoying live with her,English,Anger
+25,Kita menang yeahh,Indonesia,Anger
+26,kurasa tempat ini bagus juga,Indonesia,Joy
+27,Kau ini bodoh sekali ya,Indonesia,Joy
+28,that a delicious food,English,Joy
+29,Dasar tidak bisa diharapkan,Indonesia,Anger
+30,"Hohoho lucu sekali masbro,sekarang balik kerja sana",Indonesia,Joy
+31,Yeah i did it!,English,Joy
+32,wah makanan hari ini enak sekali,Indonesia,Joy
+33,yeahh iil success to do it,English,Joy
+34,Cihuyyy aku dapat hadiahnya!,Indonesia,Anger
+35,hadeh dasar bodoh,Indonesia,Anger
+36,"Fucking fan, that broke again",English,Anger
+37,kipas ini bagus sekalii!!,Indonesia,Joy
+38,Fuck off,English,Anger
+39,Youre so stupid,English,Anger
+40,Dasar pekerja bodoh,Indonesia,Joy
+41,Stupid workers,English,Anger
+42,Okay okay dont do it again bitch,English,Anger
+43,Aku yang berhasil melakukannya yahhh!,Indonesia,Joy
+44,Sudahlah aku sudah muuak denganmu,Indonesia,Anger
+45,astaganaga apa yang kau lakukan tolol,Indonesia,Anger
+46,"I have this yeah, i win the prizepool from gacha yesterday",English,Joy
+47,That the best!,English,Joy
+48,Minuman apa ini kok enak!,Indonesia,Joy
+49,Arghh you why are you so useless!!,English,Anger
+50,No way what are you doing fuckk!,English,Anger
+51,we win yeahh!,English,Joy
+52,wew the foods today so delicious,English,Joy
+53,Aduhai dongonya,Indonesia,Anger
+54,i mean these place not bad,English,Joy
+55,Sayang sekali aku yang berhasil memenangkannya,Indonesia,Anger
+56,bangsat hidup dengan dia sangat menggangu sekali,Indonesia,Anger
+57,Aku punya ini aku berhasil mendapatkannya dari gacha kemarin,Indonesia,Joy
+58,Heuhhh that so stupid,English,Anger
+59,Youre so stupid,English,Anger

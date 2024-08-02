@@ -225,16 +225,15 @@ df_train_2['clean_text'] = df_train_2['Text'].apply(clean_text)
 X_train_2, X_test_2, y_train_2, y_test_2 = train_test_split(df_train_2['clean_text'], df_train_2[['Language', 'Emotion']], test_size=0.2, random_state=42)
 
 # Feature Extraction
-vectorizer_TF_IDF = TfidfVectorizer(ngram_range=(1, 3), analyzer='word')
-X_train_2_vectorizer = vectorizer_TF_IDF.fit_transform(X_train_2)
-X_test_2_vectorizer = vectorizer_TF_IDF.transform(X_test_2)
+X_train_2_vectorizer_2 = vectorizer.fit_transform(X_train_2)
+X_test_2_vectorizer_2 = vectorizer.transform(X_test_2)
 
 # Model building
 multi_output_model = MultiOutputClassifier(model, n_jobs=1)
-multi_output_model.fit(X_train_2_vectorizer, y_train_2)
+multi_output_model.fit(X_train_2_vectorizer_2, y_train_2)
 
 # Predict
-y_pred_model_2 = multi_output_model.predict(X_test_2_vectorizer)
+y_pred_model_2 = multi_output_model.predict(X_test_2_vectorizer_2)
 
 # Evaluate score
 accuracy_lang = accuracy_score(y_test_2['Language'], y_pred_model_2[:, 0])
@@ -242,6 +241,12 @@ accuracy_emotion = accuracy_score(y_test_2['Emotion'], y_pred_model_2[:, 1])
 
 print(f'Language Prediction Accuracy: {accuracy_lang}')
 print(f'Emotion Prediction Accuracy: {accuracy_emotion}')
+
+"""
+Result : Training II
+Language Prediction Accuracy: 1.0
+Emotion Prediction Accuracy: 0.75
+"""
 
 # Save model
 # with open('model.pkl', 'wb') as f:
@@ -256,15 +261,28 @@ print(f'Emotion Prediction Accuracy: {accuracy_emotion}')
 # TEST V
 
 # Dataset
-# df_5 = pd.read_csv('dataset/data_test_5.csv')
+df_5 = pd.read_csv('dataset/data_test_5.csv')
 
-# # Text cleaning
-# df_5['clean_text'] = df_5['Text'].apply(clean_text)
+# Text cleaning
+df_5['clean_text'] = df_5['Text'].apply(clean_text)
 
-# # Feature and vectorized
-# X_5 = df_5['clean_text']
-# X_test_vectorized_5 = vectorizer_TF_IDF.transform(X_5)
+# Feature and vectorized
+X_5 = df_5['clean_text']
+X_test_vectorized_5 = vectorizer.transform(X_5)
 
-# # Prediction
-# y_pred_5 = multi_output_model.predict(X_test_vectorized_5)
-# df_5[['Prediction_lang', 'Prediction_emotion']] = y_pred_5
+# Prediction
+y_pred_5 = multi_output_model.predict(X_test_vectorized_5)
+df_5[['Prediction_lang', 'Prediction_emotion']] = y_pred_5
+
+# Evaluate score
+accuracy_lang_2 = accuracy_score(df_5['Language'], y_pred_5[:, 0])
+accuracy_emotion_2 = accuracy_score(df_5['Emotion'], y_pred_5[:, 1])
+
+# print(f'Language Prediction Accuracy: {accuracy_lang_2}')
+# print(f'Emotion Prediction Accuracy: {accuracy_emotion_2}')
+
+"""
+Result : TEST V
+Language Prediction Accuracy: 0.95
+Emotion Prediction Accuracy: 0.65
+"""

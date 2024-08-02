@@ -127,8 +127,6 @@ for _ in range(250):
 
 # Create dataset
 df = pd.DataFrame(data)
-
-# Shuffle the DF
 df = df.sample(frac=1).reset_index(drop=False)
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
@@ -238,10 +236,7 @@ data_4 = {
 }
 
 df = pd.DataFrame(data_4)
-
-# Shuffle index
 df = df.sample(frac=1).reset_index(drop=True)
-
 # df.to_csv('data_test_3.csv')
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
@@ -337,7 +332,62 @@ data_6 = {
 }
 
 df = pd.DataFrame(data_6)
-
-df = df.sample(frac=1).reset_index(drop=True)
-
+# df = df.sample(frac=1).reset_index(drop=True)
 # df.to_csv('dataset/data_train_2.csv')
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+
+# DATASET VI
+
+data_7 = {
+    
+    'Text' : [
+        'Aku berhasil melakukannya!', 'Cihuyyy aku dapat hadiahnya!', 'Sayang sekali aku yang berhasil memenangkannya', 'Ini yang terbaik', 'Kita menang yeahh',
+        'Yeah i did it!', 'Wewww i win the prize pool', 'Upss, sorry bro i win the game!', 'That the best!', 'we win yeahh!',
+        'Kau ini bodoh sekali ya', 'Hadeh nambah kerjaan lagi', 'Cih dasar tidak berguna', 'Dasar pekerja bodoh', 'Hohoho lucu sekali masbro,sekarang balik kerja sana',
+        'Youre so stupid', 'tch another job', 'Arghh you why are you so useless!!', 'Stupid workers', 'that a funny joke,now back to your work',
+        'Aku punya ini aku berhasil mendapatkannya dari gacha kemarin', 'Nyahahaha menggacor kang', 'wah makanan hari ini enak sekali', 'wow ini makanan yang enak', 'Minuman apa ini kok enak!',
+        'I have this yeah, i win the prizepool from gacha yesterday', 'So fantastic', 'wew the foods today so delicious', 'that a delicious food', 'what this is drink?so delicous',
+        'Ayolah kau ini bercanda bukan', 'hadeh dasar bodoh', 'ok ok jangan lakukan itu lagi jalang', 'astaganaga apa yang kau lakukan tolol', 'bangsat hidup dengan dia sangat menggangu sekali',
+        'Come on man youre kidding right?', 'Heuhhh that so stupid', 'Okay okay dont do it again bitch', 'No way what are you doing fuckk!', 'Arghh so annoying live with her',
+        'Aku yang berhasil melakukannya yahhh!', 'kau tahu aku kemarin dibelikan mesin gacor kemarin', 'wahaha aku dapat lagi', 'kurasa tempat ini bagus juga', 'kipas ini bagus sekalii!!',
+        'yeahh iil success to do it', 'you knew yesterday i bought claw machine?that very interesting', 'wahaha i get again', 'i mean these place not bad', 'wew the fan so fantastic',
+        'Hadeh rusak lagi memang bangsat', 'Dasar tidak bisa diharapkan', 'Goblok betul kau ini', 'Aduhai dongonya', 'Sudahlah aku sudah muuak denganmu',
+        'Fucking fan, that broke again', 'So useless', 'Youre so stupid', 'Fuck off', 'That food so dirty!'
+    ],
+
+    'Language' : [
+        'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia',
+        'English', 'English', 'English', 'English', 'English',
+        'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia',
+        'English', 'English', 'English', 'English', 'English',
+        'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia',
+        'English', 'English', 'English', 'English', 'English',
+        'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia',
+        'English', 'English', 'English', 'English', 'English',
+        'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia',
+        'English', 'English', 'English', 'English', 'English',
+        'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia', 'Indonesia',
+        'English', 'English', 'English', 'English', 'English',
+    ],
+
+    'Emotion' : [
+        'Anger', 'Anger', 'Anger', 'Anger', 'Anger',
+        'Joy', 'Joy', 'Joy', 'Joy', 'Joy',
+        'Joy', 'Joy', 'Joy', 'Joy', 'Joy',
+        'Anger', 'Anger', 'Anger', 'Anger', 'Anger',
+        'Joy', 'Joy', 'Joy', 'Joy', 'Joy',
+        'Joy', 'Joy', 'Joy', 'Joy', 'Joy',
+        'Anger', 'Anger', 'Anger', 'Anger', 'Anger',
+        'Anger', 'Anger', 'Anger', 'Anger', 'Anger',
+        'Joy', 'Joy', 'Joy', 'Joy', 'Joy',
+        'Joy', 'Joy', 'Joy', 'Joy', 'Joy',
+        'Anger', 'Anger', 'Anger', 'Anger', 'Anger',
+        'Anger', 'Anger', 'Anger', 'Anger', 'Anger'
+    ]
+
+}
+
+df = pd.DataFrame(data_7)
+df = df.sample(frac=1).reset_index(drop=True)
+# df.to_csv('dataset/data_test_5.csv')
