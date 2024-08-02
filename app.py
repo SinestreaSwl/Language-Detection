@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify, render_template
-from model import clean_text
+from model import clean_text, multi_output_model
 import numpy as np
 import pickle
 
@@ -31,10 +31,13 @@ def predict():
         text_vectorized = vectorizer.transform([text_clean])
 
         # Predict
-        prediction = model.predict(text_vectorized)[0]
+        prediction = multi_output_model.predict(text_vectorized)
+        language_prediction = prediction[0][0]
+        emotion_prediction = prediction[0][1]
 
         # Show the result
-        response['prediction'] = prediction
+        response['language_prediction'] = language_prediction
+        response['emotion_prediction'] = emotion_prediction
         return jsonify(response)
     except KeyError as e:
         response['error'] = f'KeyError: {str(e)}'

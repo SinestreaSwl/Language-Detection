@@ -49,13 +49,10 @@
             },
             body: JSON.stringify({ Text : text})
         });
-        const data = await response.json();
-
-        if (response.ok) {
-            document.getElementById('result').innerText = 'Language: ' + data.prediction;
-        } else {
-            document.getElementById('result').innerText = 'Error: ' + data.error;
-        }
+        const result = await response.json();
+        document.getElementById('result').innerText = 
+            'Language Prediction: ' + result.language_prediction + '\n' +
+            'Emotion Prediction: ' + result.emotion_prediction;
     };
 </script>
     <!-- JS Code -->
