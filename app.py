@@ -1,9 +1,13 @@
 from flask import Flask, request, jsonify, render_template
 from model import clean_text, multi_output_model
-import numpy as np
+from dotenv import load_dotenv
 import pickle
+import mysql.connector
+import os
 
+load_dotenv()
 
+# Load Model And Vectorizer
 with open('model.pkl', 'rb') as model_file:
     model = pickle.load(model_file)
 
@@ -11,6 +15,14 @@ with open('vectorizer.pkl', 'rb')  as vec_file:
     vectorizer = pickle.load(vec_file)
 
 app = Flask(__name__)
+
+# Database Connection
+db = mysql.connector.connect(
+    host=os.getenv('DB_HOST'),
+    user=os.getenv('DB_USER'),
+    password=os.getenv('DB_PASSWORD'),
+    database=os.getenv('DB_NAME')
+)
 
 @app.route('/')
 def main():
@@ -34,6 +46,13 @@ def predict():
         prediction = multi_output_model.predict(text_vectorized)
         language_prediction = prediction[0][0]
         emotion_prediction = prediction[0][1]
+
+        # Save to database
+        cursor = db.cursor()
+        sql = 'INSERT INTO result (text, language, emotion) VALUES (%s, %s, %s)'
+        val = (text, language_prediction, emotion_prediction)
+        cursor.execute(sql, val)
+        db.commit()
 
         # Show the result
         response['language_prediction'] = language_prediction
