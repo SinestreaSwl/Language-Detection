@@ -47,7 +47,7 @@ You can use the `/predict` endpoint to get predictions. Send a POST request with
 {
     "Text": "I am so happy today!"
 }
-
+```
 ## Environment Variables
 
 Create a `.env` file in the root directory of your project and add the following:
